@@ -1,0 +1,26 @@
+@keyframes falling {
+  from {
+    transform: translateY(-100vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes wobble {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.animate-falling {
+  animation: falling 1s cubic-bezier(0,1,0,1);
+  transform-origin: bottom;
+}
+
+.animate-wobble {
+  animation: wobble 0.5s linear;
+  transform-origin: bottom;
+}

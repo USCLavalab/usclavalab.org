@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('NeurialGrotesk-Bold.woff2') format('woff2'),
+        url('NeurialGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('NeurialGrotesk-BoldItalic.woff2') format('woff2'),
+        url('NeurialGrotesk-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('NeurialGrotesk-RegularItalic.woff2') format('woff2'),
+        url('NeurialGrotesk-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('NeurialGrotesk-Regular.woff2') format('woff2'),
+        url('NeurialGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('NeurialGrotesk-MediumItalic.woff2') format('woff2'),
+        url('NeurialGrotesk-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('NeurialGrotesk-Medium.woff2') format('woff2'),
+        url('NeurialGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
