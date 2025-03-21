@@ -17,12 +17,17 @@ export default function Hero() {
   }, []);
 
   const [fadeOutPoint, setFadeOutPoint] = useState(0);
-  const scrollProgress = Math.min(scrollY / fadeOutPoint, 1); // 0 to 1
+  const scrollProgress = Math.min(
+    fadeOutPoint > 0 ? scrollY / fadeOutPoint : 0,
+    1,
+  );
 
   useEffect(() => {
     const updateFadeOutPoint = () => {
       setFadeOutPoint(window.innerHeight * 0.75);
     };
+
+    updateFadeOutPoint();
 
     window.addEventListener("resize", updateFadeOutPoint);
     return () => window.removeEventListener("resize", updateFadeOutPoint);
