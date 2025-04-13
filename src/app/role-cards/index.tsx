@@ -3,27 +3,29 @@
 import { useState } from "react";
 import RoleCard from "./card";
 
-const cards = ["Product Manager", "Designer", "Developer"];
+import roles from "./roles";
+
+const rolesEntries = Object.entries(roles);
 
 export default function RoleCards() {
-  const [selectedIndex, setSelectedIndex] = useState(cards.length - 1);
+  const [selectedIndex, setSelectedIndex] = useState(rolesEntries.length - 1);
 
   return (
     <div
-      className="relative w-xl h-80 transition-all"
+      className="relative h-80 w-xl transition-all"
       style={{
-        marginLeft: `${5 * (cards.length - selectedIndex + 1)}rem`,
+        marginLeft: `${5 * (rolesEntries.length - selectedIndex + 1)}rem`,
       }}
     >
-      {cards.map((text, i) => {
+      {rolesEntries.map((role, i) => {
         return (
           <RoleCard
             key={i}
-            cardsLength={cards.length}
+            cardsLength={rolesEntries.length}
             index={i}
             selectedIndex={selectedIndex}
             onClick={() => setSelectedIndex(i)}
-            roleName={text}
+            role={role}
           />
         );
       })}

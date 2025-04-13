@@ -6,13 +6,13 @@ export default function RoleCard({
   cardsLength,
   index,
   selectedIndex,
-  roleName,
+  role: [key, value],
   onClick,
 }: {
   cardsLength: number;
   index: number;
   selectedIndex: number;
-  roleName: string;
+  role: [string, { who: string; what: string }];
   onClick: () => void;
 }) {
   let transform = "";
@@ -38,7 +38,7 @@ export default function RoleCard({
 
   return (
     <div
-      className="shadow-card absolute h-80 w-xl border-2 border-neutral-700 bg-neutral-800 transition-all"
+      className="shadow-card absolute flex h-80 w-xl border-2 border-neutral-700 bg-neutral-800 transition-all"
       style={{
         marginLeft: `-${5 * (cardsLength - 1 - index)}rem`,
         transformOrigin: "-4rem -4rem",
@@ -58,9 +58,16 @@ export default function RoleCard({
           }}
         >
           <h3 ref={roleNameRef} className="origin-top-left -rotate-90 text-xl">
-            {roleName}
+            {key}
           </h3>
         </div>
+      </div>
+
+      <div className="flex-1 space-y-2 p-5 text-justify text-sm">
+        <p className="opacity-50">Who</p>
+        <p>{value.who}</p>
+        <p className="mt-5 opacity-50">What</p>
+        <p>{value.what}</p>
       </div>
     </div>
   );
