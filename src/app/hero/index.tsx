@@ -1,5 +1,7 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
+import { ChevronDown } from "lucide-react";
 import { useEffect, useState } from "react";
 import HeroBackground from "./background";
 import LavaLamp from "./lamp";
@@ -12,6 +14,7 @@ export default function Hero() {
       setScrollY(window.scrollY);
     };
 
+    handleScroll();
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -38,24 +41,32 @@ export default function Hero() {
 
   return (
     <div
-      className="sticky top-0 z-0 h-screen w-screen"
+      className="fixed top-12 z-0 h-screen w-screen snap-start pt-48"
       style={{
         opacity,
         filter: `blur(${blur}px)`,
       }}
     >
-      <div className="absolute top-1/4 left-1/2 z-10 -translate-1/2 space-y-4 text-center">
+      <LavaLamp />
+
+      <div className="absolute top-1/4 left-1/2 z-10 -translate-1/2 space-y-6 text-center">
         <h1 className="text-6xl">LavaLab</h1>
         <p className="text-lg leading-[1.4]">
           Meet your cofounders.
           <br />
           USC’s premier, student-run, product incubator.
         </p>
+        <div className="space-x-4">
+          <Button onClick={() => {}}>Spring 2025</Button>
+          <Button variant={"outline"}>Contact</Button>
+        </div>
       </div>
 
-      <LavaLamp />
-
       <HeroBackground />
+
+      <div className="fixed bottom-10 left-1/2 flex -translate-x-1/2 -translate-y-full transform animate-bounce flex-col items-center text-neutral-500">
+        <ChevronDown className="size-10 animate-pulse" />
+      </div>
     </div>
   );
 }

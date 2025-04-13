@@ -29,7 +29,7 @@ export default function LavaLamp() {
       <motion.div
         className={`absolute left-1/2 z-10 w-72 -translate-x-1/2 md:w-80 lg:w-96`}
         style={{
-          bottom: "35%",
+          bottom: "calc(35% - 5vh)",
 
           scale: 1.05,
           x: imageX,

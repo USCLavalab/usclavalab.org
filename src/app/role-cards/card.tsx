@@ -38,7 +38,7 @@ export default function RoleCard({
 
   return (
     <div
-      className="absolute h-80 w-xl border-2 border-neutral-700 bg-neutral-800 shadow-2xl transition-all"
+      className="shadow-card absolute h-80 w-xl border-2 border-neutral-700 bg-neutral-800 transition-all"
       style={{
         marginLeft: `-${5 * (cardsLength - 1 - index)}rem`,
         transformOrigin: "-4rem -4rem",

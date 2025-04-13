@@ -49,7 +49,7 @@ const LavaLamp = () => {
         y="0px"
         viewBox="0 0 600 600"
         xmlSpace="preserve"
-        className="w-full max-w-md brightness-150 grayscale"
+        className="w-full max-w-md saturate-80"
       >
         <defs>
           <filter id="goo">
