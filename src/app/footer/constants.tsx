@@ -7,20 +7,29 @@ export const sections = [
     <Link href="https://instagram.com/usclavalab" className="hover:underline">
       Instagram
     </Link>
-    <Link href="https://instagram.com/usclavalab" className="hover:underline">
+    <Link
+      href="https://www.facebook.com/usclavalab"
+      className="hover:underline"
+    >
       Facebook
     </Link>
-    <Link href="https://instagram.com/usclavalab" className="hover:underline">
+    <Link href="https://twitter.com/usclavalab" className="hover:underline">
       X
     </Link>
   </>,
   <>
     <p>Made by</p>
     <p>
-      <Link href="https://irisleung.com">Iris Leung</Link>, Cohort F&apos;21
+      <Link href="https://irisleung.com" className="hover:underline">
+        Iris Leung
+      </Link>
+      , Cohort F&apos;21
     </p>
     <p>
-      <Link href="https://colegaw.in">Cole Gawin</Link>, Cohort S&apos;24
+      <Link href="https://colegaw.in" className="hover:underline">
+        Cole Gawin
+      </Link>
+      , Cohort S&apos;24
     </p>
   </>,
   <>

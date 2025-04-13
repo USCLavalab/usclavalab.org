@@ -16,11 +16,13 @@ export default function Home() {
           Upcoming Demo Night @ Tommy’s Place on May 2, 2025 at 00:00 PM
         </p>
       </div>
+
       <nav className="sticky top-0 z-30 w-full p-8">
         <div className="float-right flex gap-8">
           <Link href="#about">About</Link>
-          <Link href="#about">About</Link>
-          <Link href="#about">About</Link>
+          <Link href="#events">Events</Link>
+          <Link href="#alumni">Alumni</Link>
+          <Link href="#exec-board">Exec Board</Link>
         </div>
       </nav>
 
@@ -29,7 +31,7 @@ export default function Home() {
       <div className="h-screen" />
 
       <div className="relative z-10">
-        <section className="mb-20 flex flex-col items-center" id="about">
+        <section className="mb-20 flex flex-col items-center pt-20" id="about">
           <div className="w-full max-w-lg space-y-10 text-center">
             <h2 className="font-sans font-normal opacity-50">[ About ]</h2>
             <div className="space-y-4">
@@ -60,7 +62,12 @@ export default function Home() {
           </div>
         </section>
 
-        <EventsSection />
+        <section
+          className="relative flex min-h-screen flex-col items-center overflow-hidden py-20"
+          id="events"
+        >
+          <EventsSection />
+        </section>
 
         <section
           className="mt-20 mb-20 flex flex-col items-center"
@@ -71,7 +78,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mt-40 mb-40 flex flex-col items-center" id="alumni">
+        <section
+          className="mt-20 mb-40 flex flex-col items-center pt-20"
+          id="alumni"
+        >
           <div className="flex w-full flex-col items-center space-y-10 text-center">
             <h2 className="font-sans font-normal opacity-50">
               [ Alumni Spotlight ]
@@ -89,7 +99,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mt-40 mb-40 flex flex-col items-center" id="alumni">
+        <section
+          className="mt-20 mb-20 flex flex-col items-center pt-20"
+          id="exec-board"
+        >
           <div className="flex w-full flex-col items-center space-y-10 text-center">
             <h2 className="font-sans font-normal opacity-50">
               [ Executive Board ]

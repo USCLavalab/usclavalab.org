@@ -11,8 +11,8 @@ export default function GrainedBackground({
   grainChaos = 0.5,
   grainSpeed = 20,
 }) {
-  const containerRef = useRef(null);
-  const grainRef = useRef(null);
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  const grainRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const canvas = document.createElement("canvas");
@@ -23,8 +23,8 @@ export default function GrainedBackground({
     for (let w = 0; w < patternWidth; w += grainDensity) {
       for (let h = 0; h < patternHeight; h += grainDensity) {
         const rgb = (Math.random() * 256) | 0;
-        ctx.fillStyle = `rgba(${rgb}, ${rgb}, ${rgb}, ${grainOpacity})`;
-        ctx.fillRect(w, h, grainWidth, grainHeight);
+        ctx!.fillStyle = `rgba(${rgb}, ${rgb}, ${rgb}, ${grainOpacity})`;
+        ctx!.fillRect(w, h, grainWidth, grainHeight);
       }
     }
 

@@ -66,12 +66,12 @@ export default function Footer() {
   }
 
   return (
-    <footer style={{ height: 300 }}>
-      <div className="absolute w-full">
+    <footer style={{ height: 380 }} className="relative w-full overflow-hidden">
+      <div className="absolute w-full overflow-hidden pt-20">
         <LavaLab />
       </div>
 
-      <div className="absolute w-full">
+      <div className="absolute w-full overflow-hidden pt-20">
         <div
           className="relative mx-auto text-sm text-neutral-500"
           style={{ width: 1356, height: 300 }}

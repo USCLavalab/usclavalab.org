@@ -113,10 +113,7 @@ export default function EventsSection() {
   const event = events[selectedPatternIndex || 0];
 
   return (
-    <section
-      className="relative flex min-h-screen flex-col items-center overflow-hidden py-24"
-      id="alumni"
-    >
+    <>
       <div className="relative z-10 flex w-full flex-col items-center space-y-10 text-center">
         <h2 className="font-sans font-normal opacity-50">[ Events ]</h2>
 
@@ -187,6 +184,6 @@ export default function EventsSection() {
           </motion.div>
         )}
       </AnimatePresence>
-    </section>
+    </>
   );
 }

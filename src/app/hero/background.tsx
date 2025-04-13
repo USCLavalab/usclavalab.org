@@ -6,10 +6,6 @@ import Image from "next/image";
 import backgroundImage from "./background-image.webp";
 import GrainedBackground from "./grained";
 
-const TOTAL_FRAMES = 54;
-const FRAME_PATH = (index) =>
-  `/background-frames/frame${String(index).padStart(2, "0")}.png`;
-
 export default function HeroBackground() {
   // const [images, setImages] = useState([]);
   // const [frameIndex, setFrameIndex] = useState(50);
