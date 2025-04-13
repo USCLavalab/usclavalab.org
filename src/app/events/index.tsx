@@ -175,6 +175,8 @@ export default function EventsSection() {
           >
             <Image
               src={event.img}
+              placeholder="blur"
+              priority
               alt="Event Image"
               fill
               className="top-0 object-cover object-center opacity-30"
