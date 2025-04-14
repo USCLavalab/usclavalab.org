@@ -31,11 +31,8 @@ export default function Home() {
       <div className="h-screen" />
 
       <div className="relative z-10">
-        <section
-          className="mb-20 flex flex-col items-center px-4 pt-20"
-          id="about"
-        >
-          <div className="w-full max-w-lg space-y-10 text-center">
+        <section className="mb-20 flex flex-col items-center pt-20" id="about">
+          <div className="w-full max-w-lg space-y-10 px-4 text-center">
             <h2 className="font-sans font-normal opacity-50">[ About ]</h2>
             <div className="space-y-4">
               <p>
@@ -55,7 +52,7 @@ export default function Home() {
             <RoleCards />
           </div>
 
-          <div className="w-full max-w-xl text-center">
+          <div className="w-full max-w-xl px-4 text-center">
             <p>
               We walk all our cohorts through a curriculum built on the
               foundation of YC and Theil’s Zero to One ideology—augmented by

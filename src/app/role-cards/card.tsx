@@ -33,7 +33,7 @@ export default function RoleCard({
 
   return (
     <div
-      className="shadow-card relative flex h-110 w-96 border-2 border-neutral-700 bg-neutral-800 transition-all md:absolute md:h-80 md:w-xl"
+      className="shadow-card relative flex h-110 w-90 border-2 border-neutral-700 bg-neutral-800 transition-all md:absolute md:h-80 md:w-xl"
       style={
         isMD
           ? {
