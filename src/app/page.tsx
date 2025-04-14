@@ -48,7 +48,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-40 mb-40 flex h-80 justify-center">
+          <div className="my-20 flex w-full justify-center md:my-40 md:h-80">
             <RoleCards />
           </div>
 
@@ -69,10 +69,7 @@ export default function Home() {
           <EventsSection />
         </section>
 
-        <section
-          className="mt-20 mb-20 flex flex-col items-center"
-          id="community"
-        >
+        <section className="mb-20 flex flex-col items-center" id="community">
           <div className="bg-red mt-20 w-full py-4">
             <CommunityImagesGrid />
           </div>

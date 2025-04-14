@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import AnimatedLamp from "./animated-lamp";
 
-import useMouseTransform from "@/lib/useMouseTransform";
+import useMouseTransform from "@/hooks/use-mouse-transform";
 import { motion } from "motion/react";
 import "./lamp.css";
 
