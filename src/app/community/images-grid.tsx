@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 
 export default function CommunityImagesGrid() {
   return (
-    <div className="grid grid-cols-[repeat(15,minmax(0,1fr))]">
+    <div className="my-20 hidden grid-cols-[repeat(15,minmax(0,1fr))] md:grid">
       {Array.from({ length: 75 }, (_, i) => {
         const cols = 15;
         const isLastCol = (i + 1) % cols === 0;

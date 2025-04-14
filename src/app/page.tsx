@@ -31,7 +31,10 @@ export default function Home() {
       <div className="h-screen" />
 
       <div className="relative z-10">
-        <section className="mb-20 flex flex-col items-center pt-20" id="about">
+        <section
+          className="mb-20 flex flex-col items-center px-4 pt-20"
+          id="about"
+        >
           <div className="w-full max-w-lg space-y-10 text-center">
             <h2 className="font-sans font-normal opacity-50">[ About ]</h2>
             <div className="space-y-4">
@@ -69,8 +72,8 @@ export default function Home() {
           <EventsSection />
         </section>
 
-        <section className="mb-20 flex flex-col items-center" id="community">
-          <div className="bg-red mt-20 w-full py-4">
+        <section className="flex flex-col items-center" id="community">
+          <div className="w-full py-4">
             <CommunityImagesGrid />
           </div>
         </section>
