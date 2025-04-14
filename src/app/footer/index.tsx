@@ -73,7 +73,7 @@ export default function Footer() {
 
       <div className="absolute w-full overflow-hidden pt-20">
         <div
-          className="relative mx-auto text-sm text-neutral-500"
+          className="relative mx-auto text-xs text-neutral-500 md:text-sm"
           style={{ width: 1356, height: 300 }}
         >
           {repositionedSections.map((innerSections, index) => {
