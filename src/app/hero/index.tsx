@@ -49,11 +49,10 @@ export default function Hero() {
     >
       <LavaLamp />
 
-      <div className="absolute top-1/4 left-1/2 z-10 -translate-1/2 space-y-6 text-center">
-        <h1 className="text-6xl">LavaLab</h1>
-        <p className="text-lg leading-[1.4]">
-          Meet your cofounders.
-          <br />
+      <div className="absolute top-1/4 left-1/2 z-10 w-full max-w-72 -translate-1/2 space-y-6 text-center">
+        <h1 className="text-5xl md:text-6xl">LavaLab</h1>
+        <p className="leading-[1.4] md:text-lg">
+          Meet your cofounders. <br className="hidden md:block" />
           USC’s premier, student-run, product incubator.
         </p>
         <div className="space-x-4">
@@ -64,7 +63,7 @@ export default function Hero() {
 
       <HeroBackground />
 
-      <div className="fixed bottom-10 left-1/2 flex -translate-x-1/2 -translate-y-full transform animate-bounce flex-col items-center text-neutral-500">
+      <div className="xs:bottom-10 fixed bottom-0 left-1/2 z-10 flex -translate-x-1/2 -translate-y-full transform animate-bounce flex-col items-center text-neutral-500">
         <ChevronDown className="size-10 animate-pulse" />
       </div>
     </div>
