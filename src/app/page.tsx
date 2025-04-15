@@ -1,6 +1,6 @@
 import Link from "next/link";
 import AlumniSpotlight from "./alumni-spotlight";
-import CommunityImagesGrid from "./community/images-grid";
+import CommunityImagesGrid from "./community";
 import EventsSection from "./events";
 import ExecBoard from "./exec-board";
 import Footer from "./footer";

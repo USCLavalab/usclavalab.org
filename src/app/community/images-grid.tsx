@@ -1,9 +1,16 @@
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
-export default function CommunityImagesGrid() {
+export default function CommunityImagesGrid({
+  imagePaths,
+}: {
+  imagePaths: string[];
+}) {
+  console.log({ imagePaths });
+
   return (
     <div className="my-20 hidden grid-cols-[repeat(15,minmax(0,1fr))] md:grid">
-      {Array.from({ length: 75 }, (_, i) => {
+      {imagePaths.map((val, i) => {
         const cols = 15;
         const isLastCol = (i + 1) % cols === 0;
         const isLastRow = i >= 75 - cols;
@@ -18,8 +25,8 @@ export default function CommunityImagesGrid() {
               "group",
             )}
           >
-            <div className="flex size-full items-center justify-center bg-white opacity-0 transition-opacity duration-1000 group-hover:opacity-100 hover:duration-0">
-              {i}
+            <div className="relative flex size-full items-center justify-center bg-white opacity-0 transition-opacity delay-500 duration-1000 group-hover:opacity-100 hover:delay-0 hover:duration-0">
+              <Image src={`/community/${val}`} alt={`Image ${i}`} fill />
             </div>
           </div>
         );
