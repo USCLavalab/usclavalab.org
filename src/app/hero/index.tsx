@@ -1,7 +1,8 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import HeroBackground from "./background";
 import LavaLamp from "./lamp";
@@ -56,8 +57,18 @@ export default function Hero() {
           USC’s premier, student-run, product incubator.
         </p>
         <div className="space-x-4">
-          <Button onClick={() => {}}>Spring 2025</Button>
-          <Button variant={"outline"}>Contact</Button>
+          <Link
+            href={"https://forms.gle/ab73pNHHozRN4F5W8"}
+            className={buttonVariants()}
+          >
+            Spring 2025
+          </Link>
+          <Link
+            href={"mailto:usclavalab@gmail.com"}
+            className={buttonVariants({ variant: "outline" })}
+          >
+            Contact
+          </Link>
         </div>
       </div>
 
