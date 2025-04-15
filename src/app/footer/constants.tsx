@@ -20,7 +20,7 @@ export const sections = [
   <>
     <p>Made by</p>
     <p>
-      <Link href="https://irisleung.com" className="hover:underline">
+      <Link href="https://iriscleung.com" className="hover:underline">
         Iris Leung
       </Link>
       , Cohort F&apos;21
