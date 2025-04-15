@@ -6,8 +6,6 @@ export default function CommunityImagesGrid({
 }: {
   imagePaths: string[];
 }) {
-  console.log({ imagePaths });
-
   return (
     <div className="my-20 hidden grid-cols-[repeat(15,minmax(0,1fr))] md:grid">
       {imagePaths.map((val, i) => {
