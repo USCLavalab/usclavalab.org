@@ -1,27 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import AnimatedLamp from "./animated-lamp";
 
 import useMouseTransform from "@/hooks/use-mouse-transform";
-import { motion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
 import "./lamp.css";
 
 export default function LavaLamp() {
-  const [animationState, setAnimationState] = useState("falling");
-
-  useEffect(() => {
-    // After the falling animation completes, switch to wobbling
-    const timer = setTimeout(() => {
-      setAnimationState("wobbling");
-    }, 900); // 1 second for falling animation
-
-    return () => clearTimeout(timer);
-  }, []);
-
-  // Animation class based on state
-  const animationClass = animationState === "falling" ? "animate-falling" : "";
-
   const { imageX, imageY, rotateX, rotateY } = useMouseTransform(0.005, 0);
 
   return (
@@ -43,9 +28,19 @@ export default function LavaLamp() {
           className="absolute bottom-0 left-1/2 h-12 w-56 -translate-x-1/2 rounded-[50%] bg-black opacity-80"
           style={{ filter: "blur(10px)" }}
         />
-        <div className={`${animationClass}`}>
-          <AnimatedLamp />
-        </div>
+        <AnimatePresence>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{
+              opacity: 1,
+            }}
+            transition={{
+              duration: 1,
+            }}
+          >
+            <AnimatedLamp />
+          </motion.div>
+        </AnimatePresence>
       </motion.div>
     </div>
   );
