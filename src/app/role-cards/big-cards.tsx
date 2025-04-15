@@ -12,7 +12,7 @@ export default function BigRoleCards() {
 
   return (
     <div
-      className="relative h-80 w-xl transition-all"
+      className="relative h-80 w-xl transition-all duration-400"
       style={{
         marginLeft: `${5 * (rolesEntries.length - selectedIndex + 1)}rem`,
       }}
