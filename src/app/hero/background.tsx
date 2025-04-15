@@ -43,7 +43,7 @@ export default function HeroBackground() {
   //   };
   // }, [images]);
 
-  const { imageX, imageY, rotateX, rotateY } = useMouseTransform(0.001, 0.005);
+  const { imageX, imageY, rotateX, rotateY } = useMouseTransform(0.005, 0.01);
 
   return (
     <div className="absolute top-0 left-0 size-full overflow-hidden">
