@@ -28,7 +28,7 @@ export default function TeamMember({ member }: TeamMemberProps) {
       </div>
       <div className="p-4 text-left">
         <p className="text-sm">{member.name}</p>
-        <p className="text-sm text-gray-400">
+        <p className="text-sm text-neutral-400">
           {member.role}, {member.cohort}
         </p>
       </div>
