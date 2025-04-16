@@ -103,7 +103,7 @@ export default function InteractivePatternMaker({
           <button
             key={index}
             className={cn(
-              `h-8 w-8 cursor-pointer border bg-black opacity-50 transition-all hover:opacity-75`,
+              `h-8 w-8 cursor-pointer border opacity-50 transition-all hover:opacity-75`,
               selectedPatternIndex === index && "opacity-100",
             )}
             onClick={() => applyPattern(pattern, index)}
@@ -114,7 +114,7 @@ export default function InteractivePatternMaker({
                 row.map((cell, colIndex) => (
                   <div
                     key={`pattern-${index}-${rowIndex}-${colIndex}`}
-                    className={`${cell ? "bg-white" : "bg-black"}`}
+                    className={`${cell ? "bg-white" : "bg-transparent"}`}
                   />
                 )),
               )}
