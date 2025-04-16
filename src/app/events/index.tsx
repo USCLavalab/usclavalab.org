@@ -5,6 +5,7 @@ import InteractivePatternMaker from "./interactive-pattern-maker";
 import { AnimatePresence, motion } from "motion/react";
 import Image from "next/image";
 import { useState } from "react";
+import Balancer from "react-wrap-balancer";
 import { events, patterns } from "./constants";
 
 export default function EventsSection() {
@@ -34,18 +35,24 @@ export default function EventsSection() {
               className="w-full max-w-2xl space-y-6 text-center"
             >
               <p>
-                LavaLab is a community of 500+ ambitious entrepreneurs,
-                relentless builders, and fearless change-makers driven by a
-                shared passion for innovation and impact.
+                <Balancer>
+                  LavaLab is a community of 500+ ambitious entrepreneurs,
+                  relentless builders, and fearless change-makers driven by a
+                  shared passion for innovation and impact.
+                </Balancer>
               </p>
               <p>
-                Fueled by lifelong connection, you’ll find a culture that pushes
-                you to grow, challenge the status quo, and become the boldest
-                version of yourself.
+                <Balancer>
+                  Fueled by lifelong connection, you’ll find a culture that
+                  pushes you to grow, challenge the status quo, and become the
+                  boldest version of yourself.
+                </Balancer>
               </p>
               <p>
-                If any of this resonates with you, we welcome you to the LavaLab
-                community.
+                <Balancer>
+                  If any of this resonates with you, we welcome you to the
+                  LavaLab community.
+                </Balancer>
               </p>
             </motion.div>
           ) : (
@@ -58,7 +65,9 @@ export default function EventsSection() {
               className="w-full max-w-2xl space-y-6 text-center"
             >
               <p>{event.title}</p>
-              <p>{event.description}</p>
+              <p>
+                <Balancer>{event.description}</Balancer>
+              </p>
             </motion.div>
           )}
         </AnimatePresence>

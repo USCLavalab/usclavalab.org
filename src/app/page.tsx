@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Balancer from "react-wrap-balancer";
 import AlumniSpotlight from "./alumni-spotlight";
 import CommunityImagesGrid from "./community";
 import EventsSection from "./events";
@@ -36,14 +37,17 @@ export default function Home() {
             <h2 className="font-sans font-normal opacity-50">[ About ]</h2>
             <div className="space-y-4">
               <p>
-                At LavaLab, we don’t build projects—we build startups for a
-                brighter future, __ technology that solves real problems, and
-                invest in people who dare to bet on themselves.
-              </p>
-              <p>
-                Every semester, LavaLab takes a cohort of 28 students composed
-                of product managers, developers, and designers to build
-                tomorrow’s startups, today.
+                <Balancer>
+                  Every semester, LavaLab takes a cohort of 28 students composed
+                  of product managers, developers, and designers to build
+                  tomorrow’s startups, today.
+                  <br />
+                  <br />
+                  At LavaLab, we don’t build &ldquo;projects&rdquo;—we build
+                  ambitious startups for a brighter future, create innovative
+                  technology that solves real problems, and invest in
+                  forward-thinking people who dare to bet on themselves.
+                </Balancer>
               </p>
             </div>
           </div>
@@ -52,12 +56,14 @@ export default function Home() {
             <RoleCards />
           </div>
 
-          <div className="w-full max-w-xl px-4 text-center">
+          <div className="w-full max-w-lg px-4 text-center">
             <p>
-              We walk all our cohorts through a curriculum built on the
-              foundation of YC and Theil’s Zero to One ideology—augmented by
-              decades of earned experience passed down by USC’s most successful
-              builders and founders.
+              <Balancer>
+                We walk all our cohorts through a curriculum built on the
+                foundation of YC and Theil’s Zero to One ideology—augmented by
+                decades of earned experience passed down by USC’s most
+                successful builders and founders.
+              </Balancer>
             </p>
           </div>
         </section>

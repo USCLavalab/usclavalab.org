@@ -38,7 +38,7 @@ const LavaLamp = () => {
 
   return (
     <div
-      className="lava-lamp-container flex h-full w-full items-center justify-center grayscale-100"
+      className="lava-lamp-container flex h-full w-full items-center justify-center brightness-150 grayscale-100"
       ref={containerRef}
     >
       <svg

@@ -59,6 +59,7 @@ export default function Hero() {
         <div className="space-x-4">
           <Link
             href={"https://forms.gle/ab73pNHHozRN4F5W8"}
+            target="_blank"
             className={buttonVariants()}
           >
             Spring 2025
