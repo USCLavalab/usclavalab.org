@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "LavaLab",
   description:
     "Meet your cofounders. USC’s premier, student-run, product incubator.",
+  metadataBase: new URL("https://usclavalab.org"),
 };
 
 export default function RootLayout({
