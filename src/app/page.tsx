@@ -60,7 +60,7 @@ export default function Home() {
             <p>
               <Balancer>
                 We walk all our cohorts through a curriculum built on the
-                foundation of YC and Theil’s Zero to One ideology—augmented by
+                foundation of YC and Thiel’s Zero to One ideology—augmented by
                 decades of earned experience passed down by USC’s most
                 successful builders and founders.
               </Balancer>
