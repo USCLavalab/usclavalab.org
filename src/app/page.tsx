@@ -12,8 +12,8 @@ import RoleCards from "./role-cards";
 export default function Home() {
   return (
     <>
-      <div className="relative z-40 flex h-12 w-full items-center justify-center bg-neutral-400">
-        <p className="text-sm text-black">
+      <div className="relative z-40 flex h-12 w-full items-center justify-center bg-neutral-400 p-1">
+        <p className="text-center text-sm text-black">
           Upcoming Demo Night @ Tommy’s Place on May 2, 2025 at 3:00 PM
         </p>
       </div>

@@ -85,15 +85,17 @@ export default function SmoothInfiniteCarousel({
               <div className="text-sm text-neutral-400">{item.founders}</div>
 
               <div>
-                <div className="mb-1 text-sm">{item.description}</div>
-                <div className="text-sm text-neutral-400">{item.metrics}</div>
+                <div className="mb-1 text-sm text-neutral-400">
+                  {item.description}
+                </div>
+                <div className="text-sm text-neutral-500">{item.metrics}</div>
               </div>
 
               <div className="absolute top-0 left-0 flex size-full items-center justify-center">
                 <Image
                   src={item.logo}
                   alt={`${item.name} logo`}
-                  className="h-8 w-[unset] md:h-10"
+                  className="h-6 w-[unset] md:h-8"
                 />
               </div>
             </div>
