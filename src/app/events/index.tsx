@@ -87,6 +87,7 @@ export default function EventsSection() {
               src={event.img}
               placeholder="blur"
               priority
+              quality={100}
               alt="Event Image"
               fill
               className="top-0 object-cover object-center opacity-30"
@@ -106,8 +107,7 @@ export default function EventsSection() {
                 key={idx}
                 src={e.img}
                 alt={`Preload Event Image ${idx}`}
-                width={1}
-                height={1}
+                quality={100}
                 priority
               />
             ),
