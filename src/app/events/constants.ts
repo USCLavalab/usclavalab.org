@@ -2,6 +2,8 @@ import BonfireImg from "./img/bonfire.jpeg";
 import DemoNightImg from "./img/demo-night.jpeg";
 import FiresideChatsImg from "./img/fireside-chats.jpeg";
 import HackNightImg from "./img/hack-night.png";
+import LavaLabFormalImg from "./img/lavalab-formal.jpeg";
+import PitchNightImg from "./img/pitch-night.jpeg";
 import RetreatImg from "./img/retreat.jpeg";
 import WorkshopsImg from "./img/workshops.png";
 
@@ -77,7 +79,7 @@ export const events = [
     title: "Pitch Night",
     description:
       "Two weeks before the final showcase, run through your pitch with no judgement. Get feedback from LavaLum on how to perfect your product and pitch for Demo Night.",
-    img: null,
+    img: PitchNightImg,
   },
   {
     title: "Hack Night",
@@ -95,6 +97,6 @@ export const events = [
     title: "LavaLab Formal",
     description:
       "A celebration of hard work, new friends, and the graduation of another accomplished cohort. Cheers!",
-    img: null,
+    img: LavaLabFormalImg,
   },
 ];
