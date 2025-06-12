@@ -14,7 +14,7 @@ export default function RoleCardHeader({ roleName }: { roleName: string }) {
 
   return (
     <div
-      className="h-full w-14 border-r-2 border-r-neutral-700/50 sm:w-20"
+      className="h-full w-14 cursor-pointer border-r-2 border-r-neutral-700/50 sm:w-20"
       ref={roleBtnRef}
     >
       <div
@@ -24,7 +24,10 @@ export default function RoleCardHeader({ roleName }: { roleName: string }) {
           marginLeft: `${marginLeft}px`,
         }}
       >
-        <h3 ref={roleNameRef} className="origin-top-left -rotate-90 text-xl">
+        <h3
+          ref={roleNameRef}
+          className="origin-top-left -rotate-90 text-xl select-none"
+        >
           {roleName}
         </h3>
       </div>
