@@ -63,14 +63,23 @@ export default function InteractivePatternMaker({
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
-          <div className="grid size-72 grid-cols-3 grid-rows-3 border border-neutral-700">
+          <div className="grid size-72 grid-cols-3 grid-rows-3 border border-white/20">
             {grid.map((row, rowIndex) =>
               row.map((cell, colIndex) => (
                 <div
                   key={`${rowIndex}-${colIndex}`}
-                  className={`cursor-pointer border border-neutral-700 transition-colors duration-200 ${cell ? "bg-white" : "bg-transparent hover:bg-white/20"}`}
+                  className={`cursor-pointer border border-white/20`}
                   onClick={() => toggleCell(rowIndex, colIndex)}
-                />
+                >
+                  <div
+                    className={cn(
+                      "flex size-full",
+                      cell
+                        ? "bg-white"
+                        : "bg-transparent transition-colors duration-200 hover:bg-white/20",
+                    )}
+                  />
+                </div>
               )),
             )}
           </div>
@@ -103,7 +112,7 @@ export default function InteractivePatternMaker({
           <button
             key={index}
             className={cn(
-              `h-8 w-8 cursor-pointer border opacity-50 transition-all hover:opacity-75`,
+              `h-8 w-8 cursor-pointer border border-white/20 opacity-50 transition-all hover:opacity-75`,
               selectedPatternIndex === index && "opacity-100",
             )}
             onClick={() => applyPattern(pattern, index)}
