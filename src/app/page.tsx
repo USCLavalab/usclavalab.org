@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <div className="relative z-40 flex h-12 w-full items-center justify-center bg-neutral-400 p-1">
         <p className="text-center text-sm text-black">
-          Upcoming Demo Night @ Tommy’s Place on May 2, 2025 at 3:00 PM
+          Join LavaLab&apos;s F25 Cohort, Applications Open Soon
         </p>
       </div>
 
