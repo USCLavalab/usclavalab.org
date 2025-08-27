@@ -58,14 +58,14 @@ export default function Hero() {
         </p>
         <div className="space-x-4">
           <Link
-            href={"https://forms.gle/ab73pNHHozRN4F5W8"}
+            href={"https://forms.gle/Nywx12NdhPcJsYUa7"}
             target="_blank"
             className={buttonVariants()}
           >
-            Spring 2025
+            Apply for Fall 2025
           </Link>
           <Link
-            href={"mailto:usclavalab@gmail.com"}
+            href={"mailto:lavalab@usc.edu"}
             className={buttonVariants({ variant: "outline" })}
           >
             Contact
