@@ -12,7 +12,7 @@ import uyenImg from "./images/uyen.png";
 
 const members = [
   {
-    name: "Josheta Srinivasan",
+    name: "Josheta Srinivasan.",
     role: "President",
     cohort: "Cohort S'23",
     image: joshetaImg,
