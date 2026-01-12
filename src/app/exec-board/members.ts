@@ -6,11 +6,12 @@ import bodieImg from "./images/bodie.jpg";
 import bryanImg from "./images/bryan.jpg";
 import coleImg from "./images/cole.png";
 import ethanImg from "./images/ethan.jpg";
-import arnavImg from "./images/arnav.jpeg";
+import arnavImg from "./images/arnav.jpg";
 import naysaImg from "./images/naysa.jpg";
 import sarahImg from "./images/sarah.jpg";
 import sonyaImg from "./images/sonya.jpg";
 import xinyueImg from "./images/xinyue.jpg";
+import oliviaImg from "./images/olivia.jpg";
 
 const members = [
   {
@@ -104,7 +105,13 @@ const members = [
     image: sonyaImg,
     url: "https://www.linkedin.com/in/sonya-alexis/",
   },
-
+  {
+    name: "Olivia Nazari",
+    role: "Director of Recruitment",
+    cohort: "Cohort S'25",
+    image: oliviaImg,
+    url: "https://www.linkedin.com/in/olivia-nazari/",
+  },
 ];
 
 export default members;
