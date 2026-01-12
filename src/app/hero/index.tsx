@@ -62,7 +62,7 @@ export default function Hero() {
             target="_blank"
             className={buttonVariants()}
           >
-            Apply for Fall 2025
+            Apply for Spring 2026
           </Link>
           <Link
             href={"mailto:lavalab@usc.edu"}
