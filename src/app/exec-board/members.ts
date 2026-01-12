@@ -6,7 +6,7 @@ import bodieImg from "./images/bodie.jpg";
 import bryanImg from "./images/bryan.jpg";
 import coleImg from "./images/cole.png";
 import ethanImg from "./images/ethan.jpg";
-import arnavImg from "./images/arnav.jpg";
+import arnavImg from "./images/arnav.jpeg";
 import naysaImg from "./images/naysa.jpg";
 import sarahImg from "./images/sarah.jpg";
 import sonyaImg from "./images/sonya.jpg";
