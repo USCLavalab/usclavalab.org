@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <div className="relative z-40 flex h-12 w-full items-center justify-center bg-neutral-400 p-1">
         <p className="text-center text-sm text-black">
-          Join LavaLab&apos;s F25 Cohort,{" "}
+          Join LavaLab&apos;s S26 Cohort,{" "}
           <Link
             className="font-medium underline"
             href={"https://forms.gle/Nywx12NdhPcJsYUa7"}
