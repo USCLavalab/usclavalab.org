@@ -15,11 +15,11 @@ import oliviaImg from "./images/olivia.jpg";
 
 const members = [
   {
-    name: "Cole Gawin",
+    name: "Bryan Phillips",
     role: "President",
-    cohort: "Cohort S'24",
-    image: coleImg,
-    url: "https://www.linkedin.com/in/colegawin/",
+    cohort: "Cohort F'23",
+    image: bryanImg,
+    url: "https://www.linkedin.com/in/bryan-phillips12/",
   },
   {
     name: "Xinyue Ma",
@@ -29,11 +29,11 @@ const members = [
     url: "https://www.linkedin.com/in/xxinyuema/",
   },
   {
-    name: "Bryan Phillips",
+    name: "Olivia Nazari",
     role: "Director of Recruitment",
-    cohort: "Cohort F'23",
-    image: bryanImg,
-    url: "https://www.linkedin.com/in/bryan-phillips12/",
+    cohort: "Cohort S'25",
+    image: oliviaImg,
+    url: "https://www.linkedin.com/in/olivia-nazari/",
   },
   {
     name: "Arnav Shah",
@@ -104,13 +104,6 @@ const members = [
     cohort: "Cohort S'25",
     image: sonyaImg,
     url: "https://www.linkedin.com/in/sonya-alexis/",
-  },
-  {
-    name: "Olivia Nazari",
-    role: "Director of Recruitment",
-    cohort: "Cohort S'25",
-    image: oliviaImg,
-    url: "https://www.linkedin.com/in/olivia-nazari/",
   },
 ];
 
