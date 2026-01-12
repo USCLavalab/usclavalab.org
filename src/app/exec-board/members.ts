@@ -6,7 +6,7 @@ import bodieImg from "./images/bodie.jpg";
 import bryanImg from "./images/bryan.jpg";
 import coleImg from "./images/cole.png";
 import ethanImg from "./images/ethan.jpg";
-import moImg from "./images/mo.jpg";
+import arnavImg from "./images/arnav.jpg";
 import naysaImg from "./images/naysa.jpg";
 import sarahImg from "./images/sarah.jpg";
 import sonyaImg from "./images/sonya.jpg";
@@ -35,11 +35,11 @@ const members = [
     url: "https://www.linkedin.com/in/bryan-phillips12/",
   },
   {
-    name: "Mohamed Ahmed",
+    name: "Arnav Shah",
     role: "Director of Curriculum",
-    cohort: "Cohort F'24",
-    image: moImg,
-    url: "https://www.linkedin.com/in/0xmo/",
+    cohort: "Cohort S'25",
+    image: arnavImg,
+    url: "https://www.linkedin.com/in/arnav-ashah/",
   },
   {
     name: "Atticus Kim",
