@@ -17,7 +17,7 @@ export default function Home() {
           Join LavaLab&apos;s S26 Cohort,{" "}
           <Link
             className="font-medium underline"
-            href={"https://forms.gle/Nywx12NdhPcJsYUa7"}
+            href={"https://forms.gle/h7fnCb1HURRs62o67"}
             target="_blank"
           >
             Apply Now

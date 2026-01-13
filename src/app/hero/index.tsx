@@ -58,7 +58,7 @@ export default function Hero() {
         </p>
         <div className="space-x-4">
           <Link
-            href={"https://forms.gle/Nywx12NdhPcJsYUa7"}
+            href={"https://forms.gle/h7fnCb1HURRs62o67"}
             target="_blank"
             className={buttonVariants()}
           >
