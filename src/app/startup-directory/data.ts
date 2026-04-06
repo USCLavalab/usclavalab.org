@@ -346,7 +346,7 @@ export const startups: Startup[] = [
     batch: "S25",
     industry: "AI/ML",
     website: "https://www.buildstructure.net/",
-    tags: ["Architecture", "B2B", "AI"],
+    tags: ["Architecture", "B2B", "Proptech"],
     stage: "",
     founders: [
       {
@@ -655,6 +655,52 @@ export const startups: Startup[] = [
         image: "/founders/f24/isabella.png",
         bio: "Isabella studies ECE at USC and builds across AI and full-stack systems. She has worked on LLM applications at Medtronic and co-developed Topaz, a rewards platform for restaurants.",
         linkedin: "https://www.linkedin.com/in/isabella-eiliya-a147922b4/",
+      },
+    ],
+  },
+  {
+    id: "lattice",
+    name: "Lattice",
+    description: "Leveraging AI to streamline chemical research & development.",
+    longDescription:
+      "Lattice solves a deeply flawed step in the chemical synthesis and manufacturing process.  Most chemical companies spend $100,000s annually on patent lawyers to learn if subject chemicals have already been patented. Not only is this a colossal waste of money, but it pushes back timelines on important chemical and drug development. Lattice uses a proprietary AI model to convert chemical patents into a machine-readable code, so we can deliver priceless knowledge to chemists at the click of a button.",
+    product:
+      "Lattice streamlines chemical R&D by revealing if a chemical has already been patented and guiding chemists to pivot. It does this using a multi-modal AI pipeline that converts images and english text from chemical patent documents into machine-readable code.",
+    logo: "/startup-logos/lattice.png",
+    batch: "F24",
+    industry: "AI / ML",
+    website: "",
+    tags: ["Chemical Synthesis", "Chemical Patent","B2B"],
+    stage: "",
+    founders: [
+      {
+        name: "Joseph Solomon",
+        role: "PM",
+        image: "/founders/f24/joseph.png",
+        bio: "Joseph is a seasoned product manager, currently a Senior Consultant at 180 Degrees. Joseph is also USC Merit Scholar and Dean’s List Scholar.",
+        linkedin: "https://www.linkedin.com/in/joseph--solomon/",
+      },
+      {
+        name: "Bodie Currier",
+        role: "Designer",
+        image: "/founders/f24/bodie.png",
+        bio: "Bodie is a GTM Engineer at Profound, where he builds visibility and optimization tools for the marketing platform. He has 4 years of experience shipping AI products, specializing in artificial memory, personality, and user interaction.",
+        linkedin: "https://www.linkedin.com/in/bodiecurrier/",
+        twitter: "https://x.com/BodieCurrier"
+      },
+      {
+        name: "Evan Adami",
+        role: "Developer",
+        image: "/founders/f24/evan.png",
+        bio: "Evan is a talented developer studying Computer Science at USC. He is the Co-President of QuantSC and a SWE intern at Hemut (YC X25)",
+        linkedin: "https://www.linkedin.com/in/evan-adami-16b98a290/",
+      },
+      {
+        name: "Shruti Nadala",
+        role: "Developer",
+        image: "/founders/f24/shruti.png",
+        bio: "Shruti is a CECS student and talented developer. After LavaLab she interned at Wildcard, and is now the Vice President of iOSC and a member of ShiftSC.",
+        linkedin: "https://www.linkedin.com/in/shruti-natala/",
       },
     ],
   },
