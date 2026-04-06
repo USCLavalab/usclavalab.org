@@ -25,13 +25,13 @@ export function StartupCard({ startup }: StartupCardProps) {
             <h3 className="font-sans text-2xl font-semibold text-white">
               {startup.name}
             </h3>
-            <span className="text-sm text-white/50">{startup.batch}</span>
+            <span className="hidden text-sm text-white/50 md:inline">{startup.batch}</span>
           </div>
 
           <p className="mt-1 text-white/75">{startup.description}</p>
 
           <div className="mt-3 flex flex-wrap items-center gap-2">
-            <span className="border border-white/10 px-2 py-1 text-xs tracking-wide text-white/75 uppercase">
+            <span className="hidden border border-white/10 px-2 py-1 text-xs tracking-wide text-white/75 uppercase md:inline">
               {startup.industry}
             </span>
             {startup.tags.slice(0, 2).map((tag) => (

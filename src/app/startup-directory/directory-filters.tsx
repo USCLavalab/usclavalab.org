@@ -39,7 +39,7 @@ export function DirectoryFilters({
   onIndustryChange,
 }: DirectoryFiltersProps) {
   return (
-    <aside className="w-full space-y-10 md:w-48 md:space-y-14">
+    <aside className="hidden w-full space-y-10 md:block md:w-48 md:space-y-14">
       <div>
         <h3 className="mb-4 font-sans text-xs tracking-[0.2em] text-white/50 uppercase">
           Batch
