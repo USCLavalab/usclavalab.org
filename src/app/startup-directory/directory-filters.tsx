@@ -50,7 +50,7 @@ export function DirectoryFilters({
               key={batch}
               onClick={() => onBatchChange(batch)}
               className={cn(
-                "block font-sans text-left text-base transition-colors",
+                "block cursor-pointer font-sans text-left text-base transition-colors",
                 selectedBatches.includes(batch)
                   ? "text-white"
                   : "text-white/50 hover:text-white",
@@ -72,7 +72,7 @@ export function DirectoryFilters({
               key={industry}
               onClick={() => onIndustryChange(industry)}
               className={cn(
-                "block font-sans text-left text-base transition-colors",
+                "block cursor-pointer font-sans text-left text-base transition-colors",
                 selectedIndustries.includes(industry)
                   ? "text-white"
                   : "text-white/50 hover:text-white",
