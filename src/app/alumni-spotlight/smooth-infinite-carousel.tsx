@@ -34,6 +34,8 @@ export default function SmoothInfiniteCarousel({
     const duration = 40000;
 
     const animate = (timestamp: number) => {
+      if (!innerRef.current || !containerRef.current) return;
+
       if (startTimeRef.current === null) {
         startTimeRef.current = timestamp;
       }
@@ -41,13 +43,13 @@ export default function SmoothInfiniteCarousel({
       const elapsed =
         timestamp - startTimeRef.current - totalPausedTimeRef.current;
 
-      const itemWidth = innerRef.current!.scrollWidth / (items.length * 2);
+      const itemWidth = innerRef.current.scrollWidth / (items.length * 2);
       const totalOriginalWidth = itemWidth * items.length;
 
       const scrollPosition =
         ((elapsed % duration) / duration) * totalOriginalWidth;
 
-      containerRef.current!.scrollLeft = scrollPosition;
+      containerRef.current.scrollLeft = scrollPosition;
       animationFrame = requestAnimationFrame(animate);
     };
 

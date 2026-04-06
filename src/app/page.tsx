@@ -31,6 +31,7 @@ export default function Home() {
           <Link href="#events">Events</Link>
           <Link href="#alumni">Alumni</Link>
           <Link href="#exec-board">Exec Board</Link>
+          <Link href="/startup-directory">Startup Directory</Link>
         </div>
       </nav>
 
