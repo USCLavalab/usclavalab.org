@@ -37,7 +37,7 @@ export function StartupPageClient({ startup }: StartupPageClientProps) {
         isVisible ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
       }`}
     >
-      <header className="sticky top-0 z-30 w-full px-6 py-5 md:px-8">
+      <header className="sticky top-0 z-30 w-full bg-black px-6 py-5 md:px-8">
         <Link href="/" className="inline-flex items-center gap-3">
           <Image src={favicon} alt="LavaLab favicon" className="h-8 w-8" />
           <span className="text-2xl leading-none">LavaLab</span>
@@ -122,7 +122,7 @@ export function StartupPageClient({ startup }: StartupPageClientProps) {
             )}
           </div>
 
-          <aside className="space-y-8 text-base">
+          <aside className="hidden space-y-8 text-base lg:block">
             <div className="border-l border-white/10 pl-6">
               <h3 className="mb-6 font-sans font-normal text-sm tracking-[0.2em] text-white/40 uppercase">
                 Details

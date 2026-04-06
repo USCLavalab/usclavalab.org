@@ -25,8 +25,8 @@ export default function Home() {
         </p>
       </div>
 
-      <nav className="sticky top-0 z-30 w-full p-8">
-        <div className="float-right flex gap-8">
+      <nav className="sticky top-0 z-30 w-full p-4 md:p-8">
+        <div className="flex flex-wrap justify-center gap-x-4 gap-y-1 text-sm md:float-right md:gap-8 md:text-base">
           <Link href="#about">About</Link>
           <Link href="#events">Events</Link>
           <Link href="#alumni">Alumni</Link>
