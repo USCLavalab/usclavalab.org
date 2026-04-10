@@ -1075,6 +1075,51 @@ export const startups: Startup[] = [
     ],
   },
   {
+    id: "sequence",
+    name: "Sequence",
+    description: "An integrated and centralized platform for all varieties of choose-your-own adventure stories.",
+    longDescription:
+      "Sequence is a no-code platform for interactive, choice-driven storytelling. Creating branching narratives has always required technical skill or inefficient tools, which discourage the majority of writers who just want to tell compelling stories. Meanwhile, readers have no dedicated home for discovering this genre. Sequence bridges both sides by making creation accessible to any writer and building a community where fans of choose-your-own-path stories can find and share immersive experiences.",
+    product:
+      "Sequence provides a drag-and-drop story editor and a reader-facing discovery platform in one place. Writers use the no-code canvas to build branching narratives, connect story nodes, and publish without writing a single line of code. Readers browse and play through choice-driven stories directly on the platform, with their decisions shaping the outcome. The tight integration between creator tools and the reader experience fosters a community around the genre.",
+    logo: "/startup-logos/sequence.png",
+    batch: "S24",
+    industry: "EdTech",
+    website: "https://sequencestories.com/",
+    tags: ["Publishing", "Media", "Marketplace"],
+    stage: "",
+    founders: [
+      {
+        name: "Fatema Bhaiji",
+        role: "PM",
+        image: "/founders/s24/fatema.png",
+        bio: "Fatema majored in Narrative Studies with emphases on Islamic and Spanish-language media. She has worked across industries from entertainment at Paramount to tech at Amazon. She is passionate about book-screen adaptations, making diverse literature & film accessible to underrepresented communities, and experimenting with creative technology as applied to the media and publishing industries. Post-grad, she will study across four countries in the European Union as an Erasmus Mundus Scholar to pursue an international joint masters in Children’s Literature, Media, and Cultural Entrepreneurship.",
+        linkedin: "https://www.linkedin.com/in/fatema-bhaiji-0b218423b/",
+      },
+      {
+        name: "Jacqueline Sung",
+        role: "Designer",
+        image: "/founders/s24/jacqueline.png",
+        bio: "Jacqueline majored in Arts, Technology, and the Business of Innovation under the Iovine and Young Academy. She works across various design mediums, from branding, graphic design, motion graphics, and illustration. She’s worked as a marketing intern at an independent art studio (Studio Unto) and also at a marketing agency (Dentsu). She is all about indie game development and currently leads visual development and marketing for her capstone project of Game Night Studios (@thegamenightstudios on TikTok, Instagram, and YouTube).",
+        linkedin: "https://www.linkedin.com/in/jacqueline-sung-83b540248/",
+      },
+      {
+        name: "Jasmine Yip",
+        role: "Developer",
+        image: "/founders/s24/jasmine.png",
+        bio: "Jasmine is a Computer Science major with previous software engineering experience at LinkedIn, Tessera Labs (a16z-backed start up), and Serato. She works across different disciplines of software engineering, including front-end, back-end, mobile, and AI/ML. She is passionate about problems at the intersection of AI, infrastructure, and product.",
+        linkedin: "https://www.linkedin.com/in/jasmine-yyy/",
+      },
+      {
+        name: "Paul Somodi",
+        role: "Developer",
+        image: "/founders/s24/paul.png",
+        bio: "Paul is a Software Engineering at Goldman Sachs with a B.S. and M.S. in Computer Science from the University of Southern California. He works across different disciplines of software engineering, including machine learning, software engineering, and data science. He is passionate about using engineering to make the world a better place.",
+        linkedin: "https://www.linkedin.com/in/paulsomodi/",
+      },
+    ],
+  },
+  {
     id: "activ",
     name: "Activ",
     description: "The social network for fitness.",
