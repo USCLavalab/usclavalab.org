@@ -186,7 +186,7 @@ export const startups: Startup[] = [
         name: "Olivia Nazari",
         role: "Designer",
         image: "/founders/f25/olivia.png",
-        bio: "Olivia is the Head of Marketing and Operations at Emanate, a unicorn startup (1.2B valuation) out of a16z speedrun, with investors from Peter Thiel and Alexis Ohanian. Previously, she was Head of Design at Algorhythm, where she led product and brand direction for a music marketing research platform serving Sony AWAL and Warner Music, helping grow the company to a $500K pre-seed raise. Olivia studied Design at USC and Animation at CSSSA.",
+        bio: "Olivia was previously the Head of Design at Algorhythm, where she led product and brand direction for a music marketing research platform serving Sony AWAL and Warner Music, helping grow the company to a $500K pre-seed raise. Olivia studied Design at USC and Animation at CSSSA.",
         linkedin: "https://www.linkedin.com/in/olivia-nazari/",
       },
       {
@@ -406,7 +406,7 @@ export const startups: Startup[] = [
         name: "Olivia Nazari",
         role: "Designer",
         image: "/founders/s25/olivia.png",
-        bio: "Olivia is the Head of Marketing and Operations at Emanate, a unicorn startup (1.2B valuation) out of a16z speedrun, with investors from Peter Thiel and Alexis Ohanian. Previously, she was Head of Design at Algorhythm, where she led product and brand direction for a music marketing research platform serving Sony AWAL and Warner Music, helping grow the company to a $500K pre-seed raise. Olivia studied Design at USC and Animation at CSSSA.",
+        bio: "Olivia was previously the Head of Design at Algorhythm, where she led product and brand direction for a music marketing research platform serving Sony AWAL and Warner Music, helping grow the company to a $500K pre-seed raise. Olivia studied Design at USC and Animation at CSSSA.",
         linkedin: "https://www.linkedin.com/in/olivia-nazari/",
       },
       {
