@@ -1,10 +1,14 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { JSX, useEffect, useRef, useState } from "react";
-import { sections, spacings } from "./constants";
+import { sections as defaultSections, spacings } from "./constants";
 import LavaLab from "./lavalab";
 
-export default function Footer() {
+export default function Footer({
+  sections = defaultSections,
+}: {
+  sections?: JSX.Element[];
+}) {
   const sectionRefs = useRef<Array<HTMLDivElement | null>>([]);
   const [overflowingIndices, setOverflowingIndices] = useState<number[]>([]);
 

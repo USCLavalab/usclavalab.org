@@ -7,7 +7,7 @@ interface DirectoryFiltersProps {
   onIndustryChange: (industry: string) => void;
 }
 
-const batches = ["F25", "S25", "F24", "S24", "F23", "S23", "F22", "S22"];
+const batches = ["S26", "F25", "S25", "F24", "S24", "F23", "S23", "F22"];
 const industries = [
   "AI/ML",
   "CleanTech",

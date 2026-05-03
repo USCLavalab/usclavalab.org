@@ -4,6 +4,7 @@ import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
+import Footer from "../footer";
 import favicon from "../favicon.png";
 import { DirectoryFilters } from "./directory-filters";
 import { startups } from "./data";
@@ -15,6 +16,54 @@ export default function StartupDirectoryPage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedBatches, setSelectedBatches] = useState<string[]>([]);
   const [selectedIndustries, setSelectedIndustries] = useState<string[]>([]);
+
+  // Custom footer sections for startup directory
+  const startupDirectoryFooterSections = [
+    <>
+      <Link
+        href="https://instagram.com/usclavalab"
+        target={"_blank"}
+        className="hover:underline"
+      >
+        Instagram
+      </Link>
+      <Link
+        href="https://www.facebook.com/usclavalab"
+        target={"_blank"}
+        className="hover:underline"
+      >
+        Facebook
+      </Link>
+      <Link
+        href="https://twitter.com/usclavalab"
+        target={"_blank"}
+        className="hover:underline"
+      >
+        X
+      </Link>
+    </>,
+    <>
+      <p>Made by</p>
+      <p>
+        <Link
+          href="https://www.sonyaalexis.dev/"
+          target={"_blank"}
+          className="hover:underline"
+        >
+          Sonya Alexis
+        </Link>
+        , Cohort S&apos;25
+      </p>
+    </>,
+    <>
+      <p>Sponsored by</p>
+      <p>Lloyd Greif Center</p>
+    </>,
+    <>
+      <p>© 2026</p>
+      <p>All rights reserved</p>
+    </>,
+  ];
 
   useEffect(() => {
     setIsVisible(true);
@@ -139,6 +188,8 @@ export default function StartupDirectoryPage() {
           </div>
         </section>
       </main>
+
+      <Footer sections={startupDirectoryFooterSections} />
     </div>
   );
 }
