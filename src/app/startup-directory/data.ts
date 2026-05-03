@@ -33,19 +33,19 @@ export const startups: Startup[] = [
     batch: "S26",
     industry: "Healthcare",
     website: "",
-    tags: ["B2C", "Hardware", "Animal Health/Computer Vision"],
+    tags: ["B2C", "Hardware", "Animal Health", "Computer Vision"],
     stage: "",
     founders: [
     {
       name: "Laura Jun",
-      role: "",
+      role: "PM",
       image: "/founders/s26/laura.png",
       bio: "Design, Business, and Tech @ USC IYA with a minor in Connected Devices and Making @ USC Viterbi. Laura is the current president of the USC Equestrian Team and has spent over 5 years training and competing horses at the national level for Dawson Grove Farm and Stanford Red Barn. ",
       linkedin: "https://www.linkedin.com/in/laura-jun/",
     },
     {
       name: "Karen Lou",
-      role: "",
+      role: "Designer",
       image: "/founders/s26/karen.png",
       bio: "Karen is a product designer whose work spans UI/UX, brand, and strategy. She studies business and design at USC’s Iovine and Young Academy and programming at USC Viterbi. Previously, she’s worked with startups across consumer and B2B to shape their identities and products early on. You can find her work at karenlou.com",
       linkedin: "https://www.linkedin.com/in/karen-lou/",
@@ -53,60 +53,17 @@ export const startups: Startup[] = [
     },
     {
       name: "Trent Kobielusz",
-      role: "",
+      role: "Developer",
       image: "/founders/s26/trent.png",
       bio: "SWE intern at Planet",
       linkedin: "https://www.linkedin.com/in/trentkobielusz/",
     },
     {
       name: "Justin Jiang",
-      role: "",
+      role: "Developer",
       image: "/founders/s26/justin.png",
       bio: "Justin is an incoming intern at Shopify. He is interested in computer vision and applying engineering within the e-commerce industry.",
       linkedin: "https://www.linkedin.com/in/justinjiang37/",
-    },
-    ],
-  },
-  {
-    id: "holowand",
-    name: "Holowand",
-    description: "Creating Interactive Holograms",
-    longDescription: "Holowand is the platform allowing anyone to play, create and share holographic games on a marketplace. Currently, holograms are used by businesses for advertising and training - but not by consumers. Holowand is the platform that makes holograms interactive, so consumers have access to a immersive gaming experience grounded in physical space and social interaction. We provide hardware everyone can access in the form of a holographic prism. When expensive displays deflate into consumer-ready products, we're the platform everyone builds on. The applications for holograms are endless, and we're starting with gaming. ",
-    product: "We provide the hardware and software to develop holographic games. An AI-native game engine allows users to create 3D models, interactions and controls with natural language prompting in seconds. Holowand's game engine converts this to an interactive hologram, which can be displayed on a Holoprism compatible with any display. Gamers can then use gestures or their phone as a remote to control holograms, or share their creation on Holowand marketplace.",
-    logo: "/startup-logos/holowand.png",
-    batch: "S26",
-    industry: "AI / ML, Consumer",
-    website: "",
-    tags: ["B2C", "Marketplace"],
-    stage: "",
-    founders: [
-    {
-      name: "Quinton Leung",
-      role: "",
-      image: "/founders/s26/quinton.png",
-      bio: "Studying Computational Biology and Business Finance @ USC. Experiences lie at the intersection of science and finance. Previously coordinated Series A fundraise @ AcuraStem, a biotech startup backed by the DoD and NIH. Scientific diver at WWF and former researcher at PolyU BME/CUHK Hg Group. ",
-      linkedin: "https://www.linkedin.com/in/quintonleunghk/",
-    },
-    {
-      name: "Aaron Lee",
-      role: "",
-      image: "/founders/s26/aaron.png",
-      bio: "Product Design @ USC Iovine and Young Academy. Currently designing product at Fleetline AI (YC S25) and CRM at FCCW. ",
-      linkedin: "https://www.linkedin.com/in/aaaronlee/",
-    },
-    {
-      name: "Aiden Pan",
-      role: "",
-      image: "/founders/s26/aiden.png",
-      bio: "Entrepreneur studying biomedical engineering at USC. Also working on the LapRotator—a device designed to improve laparoscope ergonomics.",
-      linkedin: "https://www.linkedin.com/in/aidenpan/",
-    },
-    {
-      name: "YJ Park ",
-      role: "",
-      image: "/founders/s26/yj.png",
-      bio: "Technical Game Designer and Engineer. Director at Overdawn Studios, an indie game studio developing 2.5D shooter games. Winner of the GWB Games Award (Tencent) and GDWC 2025 Finalist. ",
-      linkedin: "https://www.linkedin.com/in/youngjepark1/",
     },
     ],
   },
@@ -125,7 +82,7 @@ export const startups: Startup[] = [
     founders: [
     {
       name: "Mehek Mandal",
-      role: "",
+      role: "PM",
       image: "/founders/s26/mehek.png",
       bio: "Mehek is an incoming Summer Analyst at JP Morgan and currently studies CS and Business at USC. She has worked as an Investment Banking Analyst, manages $6.8M of USC Marshall's endowment fund, and founded USC's first ever student-led VC curriculum program. She is currently building at the intersection of finance and emerging technology.",
       linkedin: "https://www.linkedin.com/in/mehekmandal/",
@@ -133,7 +90,7 @@ export const startups: Startup[] = [
     },
     {
       name: "Margaret Luwena",
-      role: "",
+      role: "Designer",
       image: "/founders/s26/margaret.png",
       bio: "Margaret is exploring the intersection of design and business, building AI-forward products as the Director of Product Design at TroyLabs, USC's only accelerator program. Shipped product and brand for ventures including Mark, an AI bookmarking tool that raised over $1M in seed funding, and Im'peccable Chicken, a CPG brand featured on Shark Tank. Economics at USC, minor in Business Administration.",
       linkedin: "https://www.linkedin.com/in/margaretluwena/",
@@ -141,7 +98,7 @@ export const startups: Startup[] = [
     },
     {
       name: "Kyna Rochlani",
-      role: "",
+      role: "Developer",
       image: "/founders/s26/kyna.png",
       bio: "Incoming Data Agent Engineering Intern at Qualcomm. Builds AI products at the intersection of hardware, software, and AI. Winner of the a16z-sponsored LA Tech Week Hackathon. CS + Computer Engineering at USC, Minor in AI.",
       linkedin: "https://www.linkedin.com/in/kyna-rochlani-805993262/",
@@ -149,7 +106,7 @@ export const startups: Startup[] = [
     },
     {
       name: "Sania Gupta",
-      role: "",
+      role: "Developer",
       image: "/founders/s26/sania.png",
       bio: "Sania is passionate about building immersive, intelligent experiences across tech, gaming, and AI. Incoming Software Engineering Intern at Serve Robotics on the Simulation team. She has worked on several projects from player engagement features for a gaming startup, to AI agents that transformed team workflows, to technical product strategy and prototyping for Riot Games. Game Development major, CS and AI minors at USC.",
       linkedin: "https://www.linkedin.com/in/sania-gupta/",
@@ -158,54 +115,52 @@ export const startups: Startup[] = [
     ],
   },
   {
-    id: "juno",
-    name: "Juno",
-    description: "Your second brain that sees, acts, and remembers.",
-    longDescription: "Juno is a student dashboard that brings visibility back into students' lives. College students track their priorities across a growing stack of disconnected tools from budgeting apps, job boards, academic portals, calendars, to notes with no single place connects the dots. Without a unified view, things fall through the cracks: a recruiting deadline missed, a budget slowly overrun, an opportunity buried in a tab they forgot to check. Juno surfaces what actually matters to each student, across every dimension of their college experience.",
-    product: "Juno connects to the apps students already use and runs a network of specialized AI agents, each owning a different domain of a student's life, that work continuously in the background and communicate with each other. One agent scans an inbox and logs internship applications to a spreadsheet. Another catches an upcoming midterm and blocks study time on the calendar. Everything surfaces through a personalized dashboard and proactive iMessage nudges, so students stay on top of their priorities. The longer a student uses Juno, the smarter it gets, building a personal database that compounds over time.\n",
-    logo: "/startup-logos/juno.png",
+    id: "holowand",
+    name: "Holowand",
+    description: "Creating Interactive Holograms",
+    longDescription: "Holowand is the platform allowing anyone to play, create and share holographic games on a marketplace. Currently, holograms are used by businesses for advertising and training - but not by consumers. Holowand is the platform that makes holograms interactive, so consumers have access to a immersive gaming experience grounded in physical space and social interaction. We provide hardware everyone can access in the form of a holographic prism. When expensive displays deflate into consumer-ready products, we're the platform everyone builds on. The applications for holograms are endless, and we're starting with gaming. ",
+    product: "We provide the hardware and software to develop holographic games. An AI-native game engine allows users to create 3D models, interactions and controls with natural language prompting in seconds. Holowand's game engine converts this to an interactive hologram, which can be displayed on a Holoprism compatible with any display. Gamers can then use gestures or their phone as a remote to control holograms, or share their creation on Holowand marketplace.",
+    logo: "/startup-logos/holowand.png",
     batch: "S26",
-    industry: "Consumer",
-    website: "sayhellojuno.com",
-    tags: ["AI", "B2C"],
+    industry: "AI / ML, Consumer",
+    website: "",
+    tags: ["B2C", "Marketplace"],
     stage: "",
     founders: [
     {
-      name: "Ronnie Cheung",
-      role: "",
-      image: "/founders/s26/ronnie.png",
-      bio: "Product & Growth @Perplexity. Studying Al for Business at USC, building consumer products that change how people interact with AL.",
-      linkedin: "https://www.linkedin.com/in/ronnie-cheung/",
+      name: "Quinton Leung",
+      role: "PM",
+      image: "/founders/s26/quinton.png",
+      bio: "Studying Computational Biology and Business Finance @ USC. Experiences lie at the intersection of science and finance. Previously coordinated Series A fundraise @ AcuraStem, a biotech startup backed by the DoD and NIH. Scientific diver at WWF and former researcher at PolyU BME/CUHK Hg Group. ",
+      linkedin: "https://www.linkedin.com/in/quintonleunghk/",
     },
     {
-      name: "Kaitlyn Zhang",
-      role: "",
-      image: "/founders/s26/kaitlyn.png",
-      bio: "Design & Marketing @ Kode With Klossy. Kaitlyn is a product designer at USC's Iovine and Young Academy, creating delightful consumer-facing experiences.",
-      linkedin: "https://www.linkedin.com/in/kaitlyn-zhang-1743302b6/",
+      name: "Aaron Lee",
+      role: "Designer",
+      image: "/founders/s26/aaron.png",
+      bio: "Product Design @ USC Iovine and Young Academy. Currently designing product at Fleetline AI (YC S25) and CRM at FCCW. ",
+      linkedin: "https://www.linkedin.com/in/aaaronlee/",
     },
     {
-      name: "Johnny Sheng",
-      role: "",
-      image: "/founders/s26/johnny.png",
-      bio: "Johnny Sheng, agentic developer pushing the limits of AI through multi-agent orchestrations to build products as easy as pie.",
-      linkedin: "https://www.linkedin.com/in/johnny--sheng/",
-      twitter: "https://x.com/JohnnyShhhmeng",
+      name: "Aiden Pan",
+      role: "Developer",
+      image: "/founders/s26/aiden.png",
+      bio: "Entrepreneur studying biomedical engineering at USC. Also working on the LapRotator—a device designed to improve laparoscope ergonomics.",
+      linkedin: "https://www.linkedin.com/in/aidenpan/",
     },
     {
-      name: "Turat Zheksheev",
-      role: "",
-      image: "/founders/s26/turat.png",
-      bio: "CS & Business @ USC. SWE at Caltech Aerospace Research and former ML intern at Arity. Top 10 nationwide in the CS Olympiad and a published iOS developer with a 5-star App Store rating.",
-      linkedin: "https://www.linkedin.com/in/turatzheksheev/",
-      twitter: "https://x.com/byTurat",
+      name: "YJ Park ",
+      role: "Developer",
+      image: "/founders/s26/yj.png",
+      bio: "Technical Game Designer and Engineer. Director at Overdawn Studios, an indie game studio developing 2.5D shooter games. Winner of the GWB Games Award (Tencent) and GDWC 2025 Finalist. ",
+      linkedin: "https://www.linkedin.com/in/youngjepark1/",
     },
     ],
   },
   {
     id: "summit",
     name: "Summit",
-    description: "Optimizing the AI search engine for rising businesses.",
+    description: "Optimizing the AI search engine for rising businesses",
     longDescription:
       "Summit helps give companies visibility to how they show up on AIs like ChatGPT, Perplexity, Claude and Gemini. By providing insights on where companies show amongst competitors in similar spaces, Summit targets niches to regain and provides steps to increase visibility to pop up on more answers on AI.",
     product:
@@ -250,7 +205,7 @@ export const startups: Startup[] = [
   {
     id: "zeno",
     name: "Zeno",
-    description: "Satellite operations copilot for incident management.",
+    description: "Satellite operations copilot for incident management",
     longDescription:
       "Satellite operators today rely on fragmented dashboards, logs, and documentation to diagnose issues across complex spacecraft systems. When anomalies occur, engineers often spend days or weeks manually tracing signals across subsystems to identify the root cause. This process slows incident resolution, risks mission downtime, and becomes increasingly unsustainable as satellite fleets scale. Zeno is an AI-powered operations copilot designed to help satellite engineers investigate and resolve incidents faster. By automatically aggregating telemetry, system logs, and operational documentation, Zeno surfaces patterns and anomalies across subsystems that would otherwise take engineers weeks to uncover. This enables teams to identify root causes earlier, reduce downtime, and operate larger satellite fleets without proportionally increasing operations staff.",
     product:
@@ -295,7 +250,7 @@ export const startups: Startup[] = [
   {
     id: "basis",
     name: "Basis",
-    description: "Accelerated Depreciation, Made Simple.",
+    description: "Accelerated Depreciation, Made Simple",
     longDescription:
       "Basis is an AI-powered platform that streamlines cost segregation studies by tackling the most time-intensive step: analyzing property data across photos, sketches, and appraisal documents. By structuring and interpreting this information, Basis helps teams produce accurate, IRS-ready reports faster. Rather than replacing engineers, it embeds a human-in-the-loop workflow that guides decisions, reduces manual review time, and improves consistency across studies.",
     product:
@@ -342,7 +297,7 @@ export const startups: Startup[] = [
   {
     id: "ivory",
     name: "Ivory",
-    description: "Giving buying power back to dental practices.",
+    description: "Giving buying power back to dental practices",
     longDescription:
       "Ivory starts as an AI native inventory platform connected to dentists’ patient management software.",
     product:
@@ -387,7 +342,7 @@ export const startups: Startup[] = [
   {
     id: "pillar",
     name: "Pillar",
-    description: "Customized AI Copilot for Preconstruction.",
+    description: "Customized AI Copilot for Preconstruction",
     longDescription:
       "Pillar addresses inefficiencies in preconstruction, where contractors must analyze complex blueprints and produce accurate cost estimates under tight deadlines. Today, estimators rely on manual takeoffs and incomplete pricing data, leading to inaccurate bids and financial risk. These inefficiencies result in lost contracts or reduced margins across the industry. Pillar focuses on improving speed, accuracy, and workflow alignment in the estimation process.",
     product:
@@ -432,7 +387,7 @@ export const startups: Startup[] = [
   {
     id: "accolade",
     name: "Accolade",
-    description: "The unified workspace for college counseling.",
+    description: "The unified workspace for college counseling",
     longDescription:
       "Accolade provides a counselor-first CRM that organizes everything happening across all students. Counselors are burdened by disconnected tools, wasting hours manually piecing things together instead of supporting students effectively. Instead of seven browser tabs, Accolade is one AI-native workspace that takes care of busy administrative work so counselors can focus on what matters: getting their students into college.",
     product:
@@ -471,7 +426,7 @@ export const startups: Startup[] = [
   {
     id: "helios",
     name: "Helios",
-    description: "Streamlining early-stage drug discovery.",
+    description: "Streamlining early-stage drug discovery",
     longDescription:
       "Helios is an AI-powered platform that helps drug discovery teams identify which compounds are worth testing before costly lab validation. Early-stage drug development is defined by uncertainty, where scientists must evaluate thousands of candidates across critical factors like toxicity, stability, and target binding, yet have no reliable way to do so without slow and expensive experiments. As a result, over 90% of drug candidates fail during hit-to-lead optimization, often after months of work and significant capital have already been spent. Advances in AI have only increased the number of potential candidates, intensifying this bottleneck and causing teams to waste 6-18 months and hundreds of thousands of dollars pursuing the wrong compounds and delaying life-saving breakthroughs.",
     product:
@@ -516,7 +471,7 @@ export const startups: Startup[] = [
   {
     id: "Oasis",
     name: "Oasis",
-    description: "Revolutionizing at-home elderly care with vision-based AI.",
+    description: "Revolutionizing at-home elderly care with vision-based AI",
     longDescription:
       "Oasis is a vision-first hardware company focused on enabling independent living for the elderly. Our product ecosystem uses secure, on-device vision AI to detect critical events including falls, respiratory distress, and calls for help, in real time. By operating entirely on-device, Oasis preserves user privacy while eliminating high recurring subscription costs. Unlike traditional 'band-aid solutions' such as using baby monitors or emergency buttons (which rely on active use or constant supervision), Oasis provides continuous, passive monitoring. We deliver timely intervention and greater peace of mind for families without compromising dignity or independence.",
     product:
@@ -561,11 +516,9 @@ export const startups: Startup[] = [
   {
     id: "structure",
     name: "Structure",
-    description: "Compliance copilot for architects.",
-    longDescription:
-      "Structure is an AI-powered platform that reviews architectural drawings against zoning and building code requirements before permit submission. By automatically flagging issues like ADA compliance gaps, Structure helps teams catch problems early. This reduces costly redesign cycles and speeds up the path to permit approval for architecture firms.",
-    product:
-      "Structure provides a compliance review workflow for architecture teams. Users upload plans, and the platform parses documents, checks them against regulatory rules, and highlights potential violations. Teams can collaborate on flagged issues, track fixes across iterations, and maintain a clear record of compliance decisions.",
+    description: "Compliance copilot for architects",
+    longDescription: "Structure is an AI-powered platform that reviews architectural drawings against zoning and building code requirements before permit submission. By automatically flagging issues like ADA compliance gaps, Structure helps teams catch problems early. This reduces costly redesign cycles and speeds up the path to permit approval for architecture firms.",
+    product: "Structure provides a compliance review workflow for architecture teams. Users upload plans, and the platform parses documents, checks them against regulatory rules, and highlights potential violations. Teams can collaborate on flagged issues, track fixes across iterations, and maintain a clear record of compliance decisions.",
     logo: "/startup-logos/structure.png",
     batch: "S25",
     industry: "AI/ML",
@@ -573,42 +526,42 @@ export const startups: Startup[] = [
     tags: ["Architecture", "B2B", "Proptech"],
     stage: "",
     founders: [
-      {
-        name: "Arnav Shah",
-        role: "PM",
-        image: "/founders/s25/arnav.png",
-        bio: "Business at USC, former GTM Analyst at Axal (YC W25). Building Satori at the intersection of Manufacturing and Technology. ",
-        linkedin: "https://www.linkedin.com/in/arnav-ashah/",
-        twitter: "https://x.com/ArnavAShah",
-      },
-      {
-        name: "Olivia Nazari",
-        role: "Designer",
-        image: "/founders/s25/olivia.png",
-        bio: "Olivia was previously the Head of Design at Algorhythm, where she led product and brand direction for a music marketing research platform serving Sony AWAL and Warner Music, helping grow the company to a $500K pre-seed raise. Olivia studied Design at USC and Animation at CSSSA.",
-        linkedin: "https://www.linkedin.com/in/olivia-nazari/",
-      },
-      {
-        name: "Sonya Alexis",
-        role: "Developer",
-        image: "/founders/s25/sonya.png",
-        bio: "Incoming SWE at Databricks. Previous SWE at Bloomberg building trading platforms. Sonya studies Computer Engineering and Computer Science at USC and is interested in distributed systems, applied AI, and hardware-software integrations.",
-        linkedin: "https://www.linkedin.com/in/sonya-alexis",
-        twitter: "https://x.com/sonyaalexisss",
-      },
-      {
-        name: "Rida Faraz",
-        role: "Developer",
-        image: "/founders/s25/rida.png",
-        bio: "Incoming AI/ML @Apple. Rida’s experience lies at the intersection of hardware devices and AI model training with special emphasis on robotics. ",
-        linkedin: "https://www.linkedin.com/in/rida-faraz/",
-      },
+    {
+      name: "Arnav Shah",
+      role: "PM",
+      image: "/founders/s25/arnav.png",
+      bio: "Business at USC, former GTM Analyst at Axal (YC W25). Building Satori at the intersection of Manufacturing and Technology. ",
+      linkedin: "https://www.linkedin.com/in/arnav-ashah/",
+      twitter: "https://x.com/ArnavAShah",
+    },
+    {
+      name: "Olivia Nazari",
+      role: "Designer",
+      image: "/founders/s25/olivia.png",
+      bio: "Olivia was previously the Head of Design at Algorhythm, where she led product and brand direction for a music marketing research platform serving Sony AWAL and Warner Music, helping grow the company to a $500K pre-seed raise. Olivia studied Design at USC and Animation at CSSSA.",
+      linkedin: "https://www.linkedin.com/in/olivia-nazari/",
+    },
+    {
+      name: "Sonya Alexis",
+      role: "Developer",
+      image: "/founders/s25/sonya.png",
+      bio: "this is a test",
+      linkedin: "https://www.linkedin.com/in/sonya-alexis",
+      twitter: "https://x.com/sonyaalexisss",
+    },
+    {
+      name: "Rida Faraz",
+      role: "Developer",
+      image: "/founders/s25/rida.png",
+      bio: "Incoming AI/ML @Apple. Rida’s experience lies at the intersection of hardware devices and AI model training with special emphasis on robotics. ",
+      linkedin: "https://www.linkedin.com/in/rida-faraz/",
+    },
     ],
   },
   {
     id: "lily",
     name: "Lily",
-    description: "AI-powered IEP progress tracking for special educators.",
+    description: "AI-powered IEP progress tracking for special educators",
     longDescription:
       "Lily is building a modern platform for special educators to streamline IEP (Individualized Education Program) progress tracking. Today, special education teachers and service providers often manage progress updates through fragmented spreadsheets, manual notes, and time-consuming documentation workflows. This creates administrative burden, makes it harder to maintain consistent records, and takes time away from supporting students. Lily simplifies this process with an AI-powered workflow designed specifically for special education teams.",
     product:
@@ -656,7 +609,7 @@ export const startups: Startup[] = [
   {
     id: "vector",
     name: "Vector",
-    description: "An agentic navigator for instant, in-app support.",
+    description: "An agentic navigator for instant, in-app support",
     longDescription:
       "Vector helps SaaS companies solve one of their most expensive product problems: users getting stuck. When people open a new platform, they often end up lost in confusing workflows, outdated documentation, and slow support loops. This creates frustration for users and overwhelms support teams, leading to churn, lower product adoption, and lost revenue. Vector addresses this by giving companies a way to guide users in the moment they need help, so they can complete tasks instead of abandoning them.",
     product:
@@ -705,7 +658,7 @@ export const startups: Startup[] = [
   {
     id: "vetrail",
     name: "Vetrail",
-    description: "Digital bridge between vets and pet owners.",
+    description: "Digital bridge between vets and pet owners",
     longDescription:
       "Vetrail is a client-facing platform that bridges the communication gap between veterinary clinics and pet owners. Clinics today field over 150 phone calls a day just to handle record requests, appointment updates, and lab questions — leaving staff overwhelmed and owners frustrated. Vetrail fixes this by giving pet owners instant digital access to their pet's health information, reducing the burden on clinics and improving the quality of care.",
     product:
@@ -750,7 +703,7 @@ export const startups: Startup[] = [
   {
     id: "voxel",
     name: "Voxel",
-    description: "Seamless patient communication with customizable voice AI for clinics.",
+    description: "Seamless patient communication with customizable voice AI for clinics",
     longDescription:
       "Voxel is an AI-powered platform that enables clinics to build and deploy custom voice agents for patient communication. By automating appointment reminders, follow-up calls, and scheduling coordination, Voxel helps healthcare teams reduce no-shows and streamline phone workflows — freeing staff to focus on in-person care.",
     product:
@@ -795,7 +748,7 @@ export const startups: Startup[] = [
   {
     id: "trifect",
     name: "Trifect",
-    description: "Match with the perfect 3PL partner for your business in minutes, not months.",
+    description: "Match with the perfect 3PL partner for your business in minutes, not months",
     longDescription:
       "Trifect is an AI-powered marketplace solving one of the most painful problems in logistics: matching businesses with the right 3PL. Today, the industry is highly fragmented, with over 70,000 3PLs operating at roughly 70% capacity and no centralized system to evaluate fit. As a result, businesses spend months vetting providers, often ending up with suboptimal partnerships. Trifect fixes this by aggregating deep operational data on thousands of 3PLs and using AI to intelligently match businesses based on their exact needs. By replacing manual search and guesswork with precise, data-driven matching, we reduce time to partnership, improve outcomes, and unlock unused capacity across the logistics ecosystem.",
     product:
@@ -840,7 +793,7 @@ export const startups: Startup[] = [
   {
     id: "topaz",
     name: "Topaz",
-    description: "Loyalty management software that makes rewards simple for customers and effortless for restaurants.",
+    description: "Loyalty management software that makes rewards simple for customers and effortless for restaurants",
     longDescription:
       "Small restaurants struggle to create and manage effective loyalty programs due to limited time, resources, and high costs, while customers are left juggling fragmented reward systems. Topaz simplifies this by providing an all-in-one, easy-to-use platform that centralizes loyalty for customers and enables restaurants to design, customize, and track rewards effortlessly. By making loyalty programs more accessible and data-driven, Topaz helps businesses increase retention and build stronger customer relationships.",
     product:
@@ -885,7 +838,7 @@ export const startups: Startup[] = [
   {
     id: "lattice",
     name: "Lattice",
-    description: "Leveraging AI to streamline chemical research & development.",
+    description: "Leveraging AI to streamline chemical research & development",
     longDescription:
       "Lattice solves a deeply flawed step in the chemical synthesis and manufacturing process.  Most chemical companies spend $100,000s annually on patent lawyers to learn if subject chemicals have already been patented. Not only is this a colossal waste of money, but it pushes back timelines on important chemical and drug development. Lattice uses a proprietary AI model to convert chemical patents into a machine-readable code, so we can deliver priceless knowledge to chemists at the click of a button.",
     product:
@@ -931,7 +884,7 @@ export const startups: Startup[] = [
   {
     id: "glance",
     name: "Glance",
-    description: "AI-powered documentation platform that captures work and distributes progress context across teams.",
+    description: "AI-powered documentation platform that captures work and distributes progress context across teams",
     longDescription:
       "Glance is an AI-powered workplace companion that automatically captures work as it happens and converts it into continuously updated progress summaries without requiring manual input. Teams today rely on status updates, check-ins, and fragmented communication to understand progress, often working from information that is delayed or incomplete. By observing workflows and inferring what is being worked on, what has changed, and what may be at risk, Glance gives teams a shared, always-accurate picture of progress in real time. This eliminates reporting overhead, reduces misalignment across teams, and enables faster, better-informed decisions grounded in what’s actually happening, not what was last reported.",
     product:
@@ -980,7 +933,7 @@ export const startups: Startup[] = [
   {
     id: "due",
     name: "Due",
-    description: "Transforming homework into a dynamic learning experience.",
+    description: "Transforming homework into a dynamic learning experience",
     longDescription:
       "Due is an AI-powered, dynamic homework platform for middle school students that allows them to interact with their (once static) homework, improving the critical thinking and learning process. Additionally, Due allows teachers to gain crucial insights into student understanding through metrics like frequently asked questions, keywords, etc., to modify their curriculum.",
     product:
@@ -1027,7 +980,7 @@ export const startups: Startup[] = [
   {
     id: "tally",
     name: "Tally",
-    description: "AI inventory manager.",
+    description: "AI inventory manager",
     longDescription:
       "Tally is an autonomous AI inventory manager that monitors your stock levels in real time, alerts you when materials run low, and autonomously reorders inventory on your behalf — so you're never caught short. The more you use it, the smarter it gets, using ML forecasting to predict demand and stay one step ahead.",
     product:
@@ -1075,7 +1028,7 @@ export const startups: Startup[] = [
   {
     id: "lumen",
     name: "Lumen",
-    description: "Highlighting user voices.",
+    description: "Highlighting user voices",
     longDescription:
       "Lumen is an AI-powered product insights platform that helps teams make sense of fragmented user feedback by turning scattered signals into clear, actionable strategy. Today, feedback lives across emails, support tickets, social media, and in-app messages, forcing product teams to spend hours manually piecing together what users actually want, often missing key trends and building the wrong features as a result. Lumen solves this by automatically collecting feedback from all channels, using AI to categorize and consolidate similar insights, and surfacing the most important patterns in real time. Instead of drowning in noise, teams get a unified, crystal-clear view of user needs, enabling them to prioritize effectively, move faster, and build products that truly resonate.",
     product:
@@ -1120,7 +1073,7 @@ export const startups: Startup[] = [
   {
     id: "optis",
     name: "Optis",
-    description: "Weeding wisdom from workflows.",
+    description: "Weeding wisdom from workflows",
     longDescription: "Optis is a tool for startups to capture and disseminate tacit engineering knowledge. By automatically documenting engineers' workflows, Optis saves your team countless hours of redundant work, and helps them train agents that know your operation inside out. With Optis, engineering teams no longer need to choose between avoiding tribal knowledge build up and shipping fast.",
     product: "Using Optis, engineers can record their end-to-end workflow. Optis analyzes the video and annotates it with the complexities of the software engineering process: what was tried, what didn't work, and what did. This way, every engineer can have on-demand access to how other members of their team approached parts of a codebase - drastically reducing the ramp up time needed and making any required context instantly available.",
     logo: "/startup-logos/optis.png",
@@ -1132,33 +1085,33 @@ export const startups: Startup[] = [
     founders: [
     {
       name: "Akhil Pullela",
-      role: "",
+      role: "PM",
       image: "/founders/f24/akhil.png",
       bio: "Engineering @ Ramp, studying CS & Philosophy. Interested in applied & personalized AI.",
       linkedin: "https://www.linkedin.com/in/kaustubh-pullela/",
-      twitter: "@kpullela10",
+      twitter: "https://x.com/kpullela10",
     },
     {
       name: "Swayam Parekh",
-      role: "",
+      role: "Designer",
       image: "/founders/f24/swayam.png",
       bio: "Swayam studies CS and Business at USC and builds products at the intersection of software engineering and digital design. He is especially interested in architecting full-stack systems that support rich, visually driven user experiences.",
       linkedin: "https://www.linkedin.com/in/swayamparekh/",
     },
     {
       name: "James Zhou",
-      role: "",
+      role: "Developer",
       image: "/founders/f24/james.png",
       bio: "Software Engineer at ElevenLabs, previously MTS @ Foundry (now Mithril). ",
       linkedin: "https://www.linkedin.com/in/jameszhou02/",
-      twitter: "@jameszhou02",
+      twitter: "https://x.com/jameszhou02",
     },
     ],
   },
   {
     id: "aro",
     name: "Aro",
-    description: "No-code typesetting solution, simplifying complex document creation.",
+    description: "No-code typesetting solution, simplifying complex document creation",
     longDescription:
       "Aro is a no-code platform that simplifies the creation of complex, structured documents. Today, professionals rely on tools like LaTeX or manual formatting to produce high-quality outputs, which is time-consuming, error-prone, and inaccessible to most users. By removing the need to write formatting code, Aro makes professional-grade formatting accessible to a much broader audience.",
     product:
@@ -1204,7 +1157,7 @@ export const startups: Startup[] = [
   {
     id: "axle",
     name: "Axle",
-    description: "Marketplace for automotive parts.",
+    description: "Marketplace for automotive parts",
     longDescription:
       "Axle is a Marketplace platform that connects car part vendors and suppliers. It automatically schedules car part orders, manages part inventory and predicts order requests.",
     product:
@@ -1249,7 +1202,7 @@ export const startups: Startup[] = [
   {
     id: "cartpool",
     name: "Cartpool",
-    description: "Save on international shopping by pooling orders and splitting shipping costs.",
+    description: "Save on international shopping by pooling orders and splitting shipping costs",
     longDescription:
       "Cartpool helps consumers in the U.S. access international products without the burden of high shipping costs and limited payment options. Today, global shopping is more accessible than ever, but expensive international shipping fees often double or triple the total cost at checkout, causing many users to abandon their purchases. This problem is especially common among students and young consumers who frequently purchase items from overseas brands, including fashion, beauty, and niche products. While group ordering could reduce costs, coordinating with others is difficult and inefficient. Cartpool solves this by creating a centralized platform where users can pool orders from the same international retailer. By aggregating demand, we reduce per-user shipping costs while simplifying the entire process—from payment to delivery. Users can also share their order links to invite others, further lowering costs and increasing accessibility to global products.",
     product:
@@ -1294,7 +1247,7 @@ export const startups: Startup[] = [
   {
     id: "sequence",
     name: "Sequence",
-    description: "An integrated and centralized platform for all varieties of choose-your-own adventure stories.",
+    description: "An integrated and centralized platform for all varieties of choose-your-own adventure stories",
     longDescription:
       "Sequence is a no-code platform for interactive, choice-driven storytelling. Creating branching narratives has always required technical skill or inefficient tools, which discourage the majority of writers who just want to tell compelling stories. Meanwhile, readers have no dedicated home for discovering this genre. Sequence bridges both sides by making creation accessible to any writer and building a community where fans of choose-your-own-path stories can find and share immersive experiences.",
     product:
@@ -1339,7 +1292,7 @@ export const startups: Startup[] = [
   {
     id: "activ",
     name: "Activ",
-    description: "The social network for fitness.",
+    description: "The social network for fitness",
     longDescription:
       "Activ is a social fitness platform built for gym-goers who want more than just a workout tracker. The core problem is that many people struggle to find a fitness community where they can learn, stay motivated, and remain accountable over time. Activ addresses that by creating a dedicated social network for gym life, where users can connect with others, discover routines, share progress, and build consistency through community. Activ is designed to make fitness feel less isolated and more motivating by turning workouts into a shared experience centered around community, motivation, and personal growth.",
     product:
@@ -1384,7 +1337,7 @@ export const startups: Startup[] = [
   {
     id: "codeflow",
     name: "CodeFlow",
-    description: "Automatically turn your codebase into clear, up-to-date documentation for your entire team.",
+    description: "Automatically turn your codebase into clear, up-to-date documentation for your entire team",
     longDescription:
       "Engineering teams move fast, but documentation rarely keeps up, making onboarding slow and knowledge fragmented. As codebases grow, critical context lives in scattered files or in the heads of a few engineers. CodeFlow solves this by turning the codebase itself into a living source of truth that stays continuously up to date.",
     product:
@@ -1430,7 +1383,7 @@ export const startups: Startup[] = [
   {
     id: "documate",
     name: "Documate",
-    description: "Simplifying hardware documentation.",
+    description: "Simplifying hardware documentation",
     longDescription:
       "Documate aims to solve info overload for PDF-manual based industry, most notably the hardware industry.",
     product:
@@ -1475,12 +1428,12 @@ export const startups: Startup[] = [
     ],
   },
   {
-    id: "leap-",
+    id: "leap",
     name: "Leap ",
-    description: "A digital credit card made for children that is fully controlled by their parents and builds credit for them ",
+    description: "A digital credit card made for children",
     longDescription: "Teenagers and young adults lack access to transparent, educational financial tools — most credit products are opaque, offer no spending controls, and do nothing to teach responsible money management. Parents have no visibility into their child's financial behavior, and young people enter adulthood without credit history or financial literacy. Leap addresses all three gaps: transparency, control, and education, making the first credit card a learning experience rather than a liability.",
     product: "Leap is a parent-supervised credit card and financial literacy platform for teens. Parents set the child's credit limit and monitor transactions in real time through a dedicated dashboard. Children use the Leap card to make purchases, receive spending alerts (including \"Red Zone\" overspending warnings), and build credit history. Financial literacy modules are embedded into the product experience, turning everyday spending into guided lessons.",
-    logo: "/startup-logos/leap-.png",
+    logo: "/startup-logos/leap.png",
     batch: "F22",
     industry: "FinTech",
     website: "",
@@ -1489,30 +1442,30 @@ export const startups: Startup[] = [
     founders: [
     {
       name: "Anay Karwal",
-      role: "",
+      role: "PM",
       image: "/founders/f22/anay.png",
-      bio: "",
+      bio: "Product @ Instacart",
       linkedin: "https://www.linkedin.com/in/anaykarwal/",
     },
     {
       name: "Arella Yang",
-      role: "",
+      role: "Designer",
       image: "/founders/f22/arella.png",
-      bio: "",
+      bio: "design @ nvidia",
       linkedin: "https://www.linkedin.com/in/arellaayang/",
     },
     {
       name: "Tommy Shao",
-      role: "",
+      role: "Developer",
       image: "/founders/f22/tommy.png",
-      bio: "",
+      bio: "SWE@AWS | Prev@Scale AI, NASA | CS+AI@USC Alumni",
       linkedin: "https://www.linkedin.com/in/tommy3shao/",
     },
     {
       name: "Adeline Liou",
-      role: "",
+      role: "Developer",
       image: "/founders/f22/adeline.png",
-      bio: "",
+      bio: "Platform Engineer @ IBM",
       linkedin: "https://www.linkedin.com/in/adelineliou/",
     },
     ],
@@ -1532,30 +1485,30 @@ export const startups: Startup[] = [
     founders: [
     {
       name: "Madisyn Grace ",
-      role: "",
+      role: "PM",
       image: "/founders/f22/madisyn.png",
-      bio: "",
+      bio: "Assistant Marketing Manager @ L’Oréal | Urban Decay",
       linkedin: "https://www.linkedin.com/in/madisynclairegrace/",
     },
     {
       name: "Monica Min",
-      role: "",
+      role: "Designer",
       image: "/founders/f22/monica.png",
-      bio: "",
+      bio: "Associate Product Designer @ Versant Media | Prev. @ Paramount",
       linkedin: "https://www.linkedin.com/in/monicamin/",
     },
     {
       name: "Tyler Sehon",
-      role: "",
+      role: "Developer",
       image: "/founders/f22/tyler.png",
-      bio: "",
+      bio: "Software Engineer @ Palantir",
       linkedin: "https://www.linkedin.com/in/tsehon/",
     },
     {
       name: "Misha Khmelkov",
-      role: "",
+      role: "Developer",
       image: "/founders/f22/misha.png",
-      bio: "",
+      bio: "SWE @ Anduril",
       linkedin: "https://www.linkedin.com/in/michael-khmelkov-358476220/",
     },
     ],
@@ -1563,7 +1516,7 @@ export const startups: Startup[] = [
   {
     id: "spotlight",
     name: "Spotlight",
-    description: "Compare ticket prices across every platform — no hidden fees.",
+    description: "Compare ticket prices across every platform — no hidden fees",
     longDescription: "Live event ticket buyers are routinely overcharged through opaque pricing across fragmented platforms. Fees added at checkout on Ticketmaster, StubHub, SeatGeek, and TickPick can inflate face value by 30–50%, and there's no easy way to compare real prices across all platforms at once. Spotlight gives consumers the transparency they deserve, surfacing true all-in prices side by side so they can stop getting \"robbed blind.\"",
     product: "Spotlight is a browser extension that activates while a user is browsing any ticketing platform. It overlays a panel showing the same event's ticket prices across Ticketmaster, SeatGeek, TickPick, and StubHub simultaneously, with final all-in prices and no hidden fees. Users can sort and filter results and click through directly to purchase on the best platform — without leaving their current tab.",
     logo: "/startup-logos/spotlight.png",
@@ -1575,30 +1528,30 @@ export const startups: Startup[] = [
     founders: [
     {
       name: "Elijah Gray",
-      role: "",
+      role: "PM",
       image: "/founders/f22/elijah.png",
-      bio: "",
+      bio: "Strategic Marketing Manager, Cloud @ NVIDIA",
       linkedin: "https://www.linkedin.com/in/eligrayy/",
     },
     {
       name: "Ethan Chen",
-      role: "",
+      role: "Designer",
       image: "/founders/f22/ethan.png",
-      bio: "",
+      bio: "BDR @ CalDigit",
       linkedin: "https://www.linkedin.com/in/ethxn/",
     },
     {
       name: "Scott Susanto",
-      role: "",
+      role: "Developer",
       image: "/founders/f22/scott.png",
-      bio: "",
+      bio: "Founding Engineer @ Nova Intelligence",
       linkedin: "https://www.linkedin.com/in/susantoscott/",
     },
     {
       name: "Dennis Wang ",
-      role: "",
+      role: "Developer",
       image: "/founders/f22/dennis.png",
-      bio: "",
+      bio: "SWE @ Microsoft | USC Viterbi Alum",
       linkedin: "https://www.linkedin.com/in/denniswang2/",
     },
     ],
@@ -1618,29 +1571,29 @@ export const startups: Startup[] = [
     founders: [
     {
       name: "Steve Nguyen",
-      role: "",
+      role: "PM",
       image: "/founders/f22/steve.png",
-      bio: "",
+      bio: "AI Search Technical Program Manager @ ServiceNow",
       linkedin: "https://www.linkedin.com/in/steve-nguyen123/",
     },
     {
       name: "Leslie Zhang",
-      role: "",
+      role: "Designer",
       image: "/founders/f22/leslie.png",
       bio: "",
     },
     {
       name: "Sahithi Lingampalli ",
-      role: "",
+      role: "Developer",
       image: "/founders/f22/sahithi.png",
-      bio: "",
+      bio: "SDE @ Amazon",
       linkedin: "https://www.linkedin.com/in/sahithil/",
     },
     {
       name: "Andrew Chang ",
-      role: "",
+      role: "Developer",
       image: "/founders/f22/andrew.png",
-      bio: "",
+      bio: "Presidential Scholar @ USC | CSBA Student @ Viterbi School of Engineering",
       linkedin: "https://www.linkedin.com/in/andrew-chang-b6b557221/",
     },
     ],
@@ -1660,29 +1613,30 @@ export const startups: Startup[] = [
     founders: [
     {
       name: "Cat Tang",
-      role: "",
+      role: "PM",
       image: "/founders/f22/cat.png",
-      bio: "",
+      bio: "Core Ops @ Etched",
       linkedin: "https://www.linkedin.com/in/cat-tang/",
     },
     {
       name: "Andrew Kim",
-      role: "",
+      role: "Designer",
       image: "/founders/f22/andrew.png",
-      bio: "",
+      bio: "Product @ Atlassian | Prev. Tesla, USC Iovine & Young",
       linkedin: "https://www.linkedin.com/in/andrewmkimm/",
     },
     {
-      name: "Izzy Rocha",
-      role: "",
-      image: "/founders/f22/izzy.png",
-      bio: "",
+      name: "Isabella Rocha",
+      role: "Developer",
+      image: "/founders/f22/isabella.png",
+      bio: "SWE @ Uber | Trustee Scholar @ USC",
+      linkedin: "https://www.linkedin.com/in/isabella-rocha-412z/",
     },
     {
       name: "Christian Bryan",
-      role: "",
+      role: "Developer",
       image: "/founders/f22/christian.png",
-      bio: "",
+      bio: "SWE @ Salesforce | CS + Business @ USC",
       linkedin: "https://www.linkedin.com/in/christian-bryan/",
     },
     ],
@@ -1702,30 +1656,30 @@ export const startups: Startup[] = [
     founders: [
     {
       name: "Ralph Jeanty",
-      role: "",
+      role: "PM",
       image: "/founders/f22/ralph.png",
-      bio: "",
+      bio: "Software Engineer @ OCI",
       linkedin: "https://www.linkedin.com/in/ralphjeanty/",
     },
     {
       name: "Indira Abhyanker",
-      role: "",
+      role: "Designer",
       image: "/founders/f22/indira.png",
-      bio: "",
+      bio: "AI @ EarnIn | 2x Design Co-op @ P&G | USC Marshall",
       linkedin: "https://www.linkedin.com/in/iabhyanker/",
     },
     {
       name: "Kelcie Fan",
-      role: "",
+      role: "Developer",
       image: "/founders/f22/kelcie.png",
-      bio: "",
+      bio: "Software Engineer at Apple ",
       linkedin: "https://www.linkedin.com/in/kelciefan/",
     },
     {
       name: "Jenny Kim",
-      role: "",
+      role: "Developer",
       image: "/founders/f22/jenny.png",
-      bio: "",
+      bio: "Software Engineer at Apple ",
       linkedin: "https://www.linkedin.com/in/yjennykim/",
     },
     ],
@@ -1733,13 +1687,13 @@ export const startups: Startup[] = [
   {
     id: "sticker",
     name: "Sticker",
-    description: "Create challenges with friends to accomplish goals.",
+    description: "Create challenges with friends to accomplish goals",
     longDescription:
       "Combatting the common problem of failing to achieve goals, Sticker is a mobile app that helps friends keep track of their goals together. Friends compete with each other on shared goals. Sticker is a Strava for any type of activity.",
     product:
       "Sticker makes it possible to customize any type of goal, such as working towards benching XXkg or applying to more jobs. Once a goal is created, users can add their friends as competitors, log progress over time, and see the leaderboard for the challenge once the goal is completed.",
     logo: "/startup-logos/sticker.png",
-    batch: "S22",
+    batch: "F22",
     industry: "Consumer",
     website: "",
     tags: ["B2C"],
