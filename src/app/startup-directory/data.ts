@@ -205,7 +205,7 @@ export const startups: Startup[] = [
   {
     id: "trove",
     name: "Trove",
-    description: "The back-of-house platform built for cafes. ",
+    description: "The back-of-house platform built for cafes",
     longDescription: "Trove is a predictive inventory and vendor management platform built specifically for independent cafes. Cafe inventory is uniquely complex: perishable ingredients, pre-made goods, and unpredictable daily demand create ordering decisions that are too consequential to manage on spreadsheets. Existing tools were not built for that reality. Without real-time visibility into what is selling and what is spoiling, owners are left guessing, and independent cafes lose an average of $20,000 a year to bad ordering decisions as a result. Trove is the system that changes that.",
     product: "Trove centralizes ingredient tracking, predictive order recommendations, and vendor management. As sales come in, inventory updates automatically against a cafe's POS system and incoming vendor invoices. Trove analyzes historical sales and demand patterns to generate a pre-populated order ready for operator approval; once approved, Trove handles the rest. Over time, Trove's proprietary model improves as it aggregates demand patterns across cafes in its network, making predictions sharper the longer a cafe is on the platform, so owners spend less time guessing and more time running their cafe.",
     logo: "/startup-logos/trove.png",

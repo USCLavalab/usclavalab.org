@@ -124,6 +124,21 @@ async function downloadDriveFile(auth, fileId, destPath) {
   const drive = google.drive({ version: "v3", auth });
   fs.mkdirSync(path.dirname(destPath), { recursive: true });
 
+  // 👇 get metadata FIRST
+  const meta = await drive.files.get({
+    fileId,
+    fields: "mimeType, name",
+  });
+
+  const mime = meta.data.mimeType || "";
+  const name = meta.data.name || "";
+
+  // 🚫 skip HEIC/HEIF
+  if (mime.includes("heic") || mime.includes("heif") || name.toLowerCase().endsWith(".heic")) {
+    console.log(`  Skipping HEIC file → ${name}`);
+    return; // just skip this image
+  }
+
   const res = await drive.files.get(
     { fileId, alt: "media" },
     { responseType: "stream" }
