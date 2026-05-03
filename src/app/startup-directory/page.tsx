@@ -3,7 +3,7 @@
 import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { JSX, useEffect, useMemo, useState } from "react";
 import Footer from "../footer";
 import favicon from "../favicon.png";
 import { DirectoryFilters } from "./directory-filters";
@@ -18,7 +18,7 @@ export default function StartupDirectoryPage() {
   const [selectedIndustries, setSelectedIndustries] = useState<string[]>([]);
 
   // Custom footer sections for startup directory
-  const startupDirectoryFooterSections = [
+  const startupDirectoryFooterSections: JSX.Element[] = [
     <>
       <Link
         href="https://instagram.com/usclavalab"
