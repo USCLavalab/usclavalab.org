@@ -54,7 +54,7 @@ export const sections = [
     <p>Lloyd Greif Center</p>
   </>,
   <>
-    <p>© 2065</p>
+    <p>© 2026</p>
     <p>All rights reserved</p>
   </>,
 ];

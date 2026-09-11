@@ -23,8 +23,8 @@ const alumniSpotlightItems: AlumniSpotlightItem[] = [
     name: "Hatchet",
     logo: logo_hatchet,
     description:
-      "Mission critical tracking technology. Used across 5 continents.",
-    metrics: "450k+ monthly users",
+      "Mission critical tracking technology.",
+    metrics: "Acquired",
   },
   {
     founders: "Jonathan Liu, Lesley Moon",
@@ -73,7 +73,7 @@ const alumniSpotlightItems: AlumniSpotlightItem[] = [
     name: "Sift",
     logo: logo_sift,
     description: "Unified observability for hardware data.",
-    metrics: "$17.5m series A.",
+    metrics: "$42m series B.",
   },
 ];
 
