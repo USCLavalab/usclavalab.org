@@ -12,7 +12,7 @@ import RoleCards from "./role-cards";
 export default function Home() {
   return (
     <>
-      <div className="relative z-40 flex h-12 w-full items-center justify-center bg-neutral-400 p-1">
+      {/* <div className="relative z-40 flex h-12 w-full items-center justify-center bg-neutral-400 p-1">
         <p className="text-center text-sm text-black">
           Join LavaLab&apos;s F26 Cohort,{" "}
           <Link
@@ -23,7 +23,7 @@ export default function Home() {
             Apply Now
           </Link>
         </p>
-      </div>
+      </div> */}
 
       <nav className="sticky top-0 z-30 w-full p-4 md:p-8">
         <div className="flex flex-wrap justify-center gap-x-4 gap-y-1 text-sm md:float-right md:gap-8 md:text-base">
@@ -47,7 +47,7 @@ export default function Home() {
               <p>
                 <Balancer>
                   Every semester, LavaLab takes a cohort of 28 students composed
-                  of product managers, developers, and designers to build
+                  of product managers, engineers, and designers to build
                   tomorrow’s startups, today.
                   <br />
                   <br />

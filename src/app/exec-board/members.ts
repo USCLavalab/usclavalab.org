@@ -36,7 +36,7 @@ const members = [
   },
   {
     name: "Ethan Palosh",
-    role: "Director of Development",
+    role: "Director of Engineering",
     cohort: "Cohort S'25",
     image: "/founders/s25/ethan.png",
     url: "https://www.linkedin.com/in/ethanpalosh/",
