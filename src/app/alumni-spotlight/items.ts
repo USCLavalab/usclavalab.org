@@ -102,14 +102,6 @@ const alumniSpotlightItems: AlumniSpotlightItem[] = [
       "Neurosymbolic AI reasoning models.",
     metrics: "$33M raised",
   },
-  {
-    founders: "Alex Forgosh, Dylan Lewis, Russel Tan",
-    name: "Hatchet",
-    logo: logo_hatchet,
-    description:
-      "Mission critical tracking technology.",
-    metrics: "Acquired",
-  },
 ];
 
 export default alumniSpotlightItems;
